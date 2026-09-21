@@ -1,0 +1,7 @@
+scripts/*.txt
+scripts/*_check*.json
+scripts/admin_data_check.json
+scripts/cms_menu_current.json
+scripts/cms_menu_lastgood.json
+scripts/photo_matches.json
+scripts/groups_list.txt

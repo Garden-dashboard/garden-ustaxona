@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Garden Retsept Atlasi — Admin</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ground:#FAFAF7; --surface:#FFFFFF; --surface-2:#F1F0E9; --surface-3:#E4E3D9;
+  --ink:#20211C; --ink-soft:#5B5C53; --ink-faint:#93948A;
+  --accent:#3D6B4C; --accent-deep:#2A4C36; --accent-tint:#E7EFE8;
+  --warn:#B5581F; --warn-tint:#F5E3D2;
+  --line:rgba(32,33,28,.12); --line-strong:rgba(32,33,28,.24);
+}
+*,*::before,*::after{ box-sizing:border-box; }
+body{ margin:0; background:var(--ground); color:var(--ink); font-family:'IBM Plex Sans',sans-serif; font-size:14px; }
+.serif{ font-family:'Source Serif 4',Georgia,serif; }
+button{ font-family:inherit; }
+
+.topbar{ position:sticky; top:0; z-index:20; background:var(--surface); border-bottom:1px solid var(--line); padding:14px 24px; display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+.topbar h1{ font-family:'Source Serif 4'; font-size:19px; font-weight:600; margin:0; flex:none; }
+.topbar .controls{ display:flex; gap:8px; flex:1; flex-wrap:wrap; }
+.topbar input, .topbar select{ font:inherit; font-size:13px; padding:8px 12px; border-radius:8px; border:1px solid var(--line-strong); background:var(--ground); color:var(--ink); outline:none; }
+.topbar input{ flex:1; min-width:160px; }
+.topbar a.logout{ font-size:12.5px; color:var(--warn); text-decoration:none; white-space:nowrap; }
+.count{ font-size:12px; color:var(--ink-faint); white-space:nowrap; }
+
+.grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(190px,1fr)); gap:14px; padding:22px 24px 60px; }
+.card{ background:var(--surface); border:1px solid var(--line); border-radius:10px; overflow:hidden; cursor:pointer; transition:box-shadow .15s; }
+.card:hover{ box-shadow:0 10px 24px rgba(20,22,16,.10); }
+.card.inactive{ opacity:.45; }
+.card .ph{ aspect-ratio:1/1; background:var(--surface-2); position:relative; overflow:hidden; }
+.card .ph img{ width:100%; height:100%; object-fit:cover; }
+.card .ph .placeholder{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:var(--ink-faint); font-size:11px; }
+.card .ph .badge{ position:absolute; top:7px; left:7px; background:var(--warn); color:#fff; font-size:9px; font-weight:700; padding:3px 6px; border-radius:5px; }
+.card .status{ position:absolute; bottom:7px; right:7px; display:flex; gap:4px; }
+.dot{ width:8px; height:8px; border-radius:50%; border:1.5px solid #fff; }
+.dot.on{ background:var(--accent); } .dot.off{ background:var(--ink-faint); opacity:.5; }
+.card .info{ padding:10px 12px 12px; }
+.card .name{ font-size:12.5px; font-weight:600; line-height:1.3; min-height:2.5em; margin-bottom:5px; }
+.card .price{ font-size:11.5px; color:var(--ink-soft); }
+.empty{ padding:80px 20px; text-align:center; color:var(--ink-faint); }
+
+/* edit panel */
+.overlay{ position:fixed; inset:0; background:rgba(20,22,16,.45); z-index:100; display:none; align-items:flex-start; justify-content:flex-end; }
+.overlay.show{ display:flex; }
+.panel{ width:min(560px,94vw); height:100%; background:var(--surface); overflow-y:auto; border-left:1px solid var(--line-strong); }
+.panel-head{ display:flex; align-items:center; justify-content:space-between; padding:20px 24px; border-bottom:1px solid var(--line); position:sticky; top:0; background:var(--surface); z-index:2; }
+.panel-head h2{ font-family:'Source Serif 4'; font-size:19px; font-weight:600; }
+.panel-head button.close{ border:none; background:none; font-size:20px; cursor:pointer; color:var(--ink-faint); }
+.panel-body{ padding:22px 24px 60px; }
+
+.field-label{ font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-faint); font-weight:700; margin:22px 0 10px; }
+.field-label:first-child{ margin-top:0; }
+
+.photo-box{ aspect-ratio:16/10; background:var(--surface-2); border-radius:8px; overflow:hidden; position:relative; }
+.photo-box img{ width:100%; height:100%; object-fit:cover; }
+.photo-box .placeholder{ position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:var(--ink-faint); font-size:13px; }
+.photo-actions{ display:flex; gap:8px; margin-top:10px; flex-wrap:wrap; }
+.photo-actions button{ font-size:12.5px; padding:8px 14px; border-radius:20px; border:1px solid var(--line-strong); background:var(--surface); cursor:pointer; }
+.photo-actions button.primary{ background:var(--accent); color:#fff; border-color:var(--accent); }
+.photo-actions button.danger{ color:var(--warn); border-color:var(--warn); }
+
+.ing-row{ display:flex; gap:8px; margin-bottom:8px; }
+.ing-row input{ font:inherit; font-size:13px; padding:8px 11px; border-radius:7px; border:1px solid var(--line-strong); background:var(--ground); outline:none; }
+.ing-row .name-in{ flex:2; }
+.ing-row .amt-in{ flex:1; }
+.ing-row .rm{ border:none; background:var(--surface-2); border-radius:7px; width:34px; cursor:pointer; color:var(--warn); font-size:15px; }
+.add-ing{ font-size:12.5px; padding:8px 14px; border-radius:20px; border:1px dashed var(--line-strong); background:none; cursor:pointer; color:var(--ink-soft); }
+
+.video-input{ width:100%; font:inherit; font-size:13px; padding:10px 12px; border-radius:8px; border:1px solid var(--line-strong); background:var(--ground); outline:none; box-sizing:border-box; }
+.hint{ font-size:11.5px; color:var(--ink-faint); margin-top:6px; }
+
+.active-row{ display:flex; align-items:center; gap:10px; }
+.active-row input{ width:auto; }
+
+.save-bar{ position:sticky; bottom:0; background:var(--surface); border-top:1px solid var(--line); padding:14px 24px; display:flex; align-items:center; gap:12px; }
+.save-btn{ font-size:13.5px; font-weight:700; padding:10px 20px; border-radius:20px; border:none; background:var(--accent); color:#fff; cursor:pointer; }
+.save-btn:disabled{ opacity:.5; }
+.save-status{ font-size:12px; color:var(--ink-faint); }
+.save-status.ok{ color:var(--accent-deep); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <h1 class="serif">Retsept Atlasi — Admin</h1>
+  <div class="controls">
+    <input type="text" id="search" placeholder="Taom qidirish...">
+    <select id="groupFilter"><option value="">Barcha bo'limlar</option></select>
+    <select id="statusFilter">
+      <option value="">Barcha holat</option>
+      <option value="empty">Tarkibi bo'sh</option>
+      <option value="review">Surat tekshirish kerak</option>
+      <option value="novideo">Videosi yo'q</option>
+    </select>
+  </div>
+  <span class="count" id="count"></span>
+  <a class="logout" href="/logout">Chiqish</a>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<div class="overlay" id="overlay">
+  <div class="panel">
+    <div class="panel-head">
+      <h2 id="pName"></h2>
+      <button class="close" id="closeBtn">✕</button>
+    </div>
+    <div class="panel-body">
+      <div class="field-label">Surat</div>
+      <div class="photo-box" id="photoBox"></div>
+      <div class="photo-actions" id="photoActions"></div>
+      <input type="file" id="fileInput" accept="image/*" style="display:none">
+
+      <div class="field-label">Tarkibi (mahsulotlar)</div>
+      <div id="ingRows"></div>
+      <button class="add-ing" id="addIng">+ Mahsulot qo'shish</button>
+
+      <div class="field-label">Tayyorlash videosi (havola)</div>
+      <input type="text" class="video-input" id="videoInput" placeholder="https://... (YouTube, Telegram yoki to'g'ridan-to'g'ri video havolasi)">
+      <div class="hint">YouTube/Telegram havolasini shu yerga joylashtiring, yoki .mp4 faylning to'g'ridan-to'g'ri havolasini yozing.</div>
+
+      <div class="field-label">Holati</div>
+      <label class="active-row"><input type="checkbox" id="activeCheck"> Bu taom Atlasda ko'rinsin (faol)</label>
+    </div>
+    <div class="save-bar">
+      <button class="save-btn" id="saveBtn">Saqlash</button>
+      <span class="save-status" id="saveStatus"></span>
+    </div>
+  </div>
+</div>
+
+<script>
+let DISHES = [];
+let currentId = null;
+
+const grid = document.getElementById('grid');
+const search = document.getElementById('search');
+const groupFilter = document.getElementById('groupFilter');
+const statusFilter = document.getElementById('statusFilter');
+const countEl = document.getElementById('count');
+
+async function loadDishes(){
+  const res = await fetch('/api/dishes');
+  DISHES = await res.json();
+  const groups = [...new Set(DISHES.map(d => d.group))].sort();
+  groupFilter.innerHTML = '<option value="">Barcha bo\'limlar</option>' + groups.map(g => `<option value="${g}">${g}</option>`).join('');
+  render();
+}
+
+function fmt(n){ return Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ') + " so'm"; }
+function esc(s){ return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+function cardHtml(d){
+  let ph;
+  if(d.photo) ph = `<img src="${d.photo}" alt="">`;
+  else if(d.suggestedPhoto) ph = `<img src="${d.suggestedPhoto}" alt=""><span class="badge">Tekshirish</span>`;
+  else ph = `<div class="placeholder">Surat yo'q</div>`;
+  return `<div class="card ${d.active===false?'inactive':''}" data-id="${d.id}">
+    <div class="ph">${ph}
+      <div class="status">
+        <span class="dot ${d.ingredients&&d.ingredients.length?'on':'off'}"></span>
+        <span class="dot ${d.video?'on':'off'}"></span>
+      </div>
+    </div>
+    <div class="info"><div class="name">${esc(d.name)}</div><div class="price">${fmt(d.price)}</div></div>
+  </div>`;
+}
+
+function render(){
+  const q = search.value.trim().toLowerCase();
+  const gf = groupFilter.value;
+  const sf = statusFilter.value;
+  let list = DISHES.filter(d => {
+    if(q && !d.name.toLowerCase().includes(q)) return false;
+    if(gf && d.group !== gf) return false;
+    if(sf === 'empty' && d.ingredients && d.ingredients.length) return false;
+    if(sf === 'review' && !d.suggestedPhoto) return false;
+    if(sf === 'novideo' && d.video) return false;
+    return true;
+  });
+  countEl.textContent = list.length + ' / ' + DISHES.length;
+  grid.innerHTML = list.length ? list.map(cardHtml).join('') : '<div class="empty">Hech narsa topilmadi.</div>';
+  grid.querySelectorAll('.card').forEach(el => el.addEventListener('click', () => openPanel(el.dataset.id)));
+}
+search.addEventListener('input', render);
+groupFilter.addEventListener('change', render);
+statusFilter.addEventListener('change', render);
+
+/* --- edit panel --- */
+const overlay = document.getElementById('overlay');
+const photoBox = document.getElementById('photoBox');
+const photoActions = document.getElementById('photoActions');
+const ingRows = document.getElementById('ingRows');
+const videoInput = document.getElementById('videoInput');
+const activeCheck = document.getElementById('activeCheck');
+const saveStatus = document.getElementById('saveStatus');
+let pendingIngredients = [];
+
+function openPanel(id){
+  const d = DISHES.find(x => x.id === id);
+  if(!d) return;
+  currentId = id;
+  document.getElementById('pName').textContent = d.name;
+  saveStatus.textContent = '';
+
+  renderPhoto(d);
+  pendingIngredients = (d.ingredients || []).map(i => ({...i}));
+  renderIngredients();
+  videoInput.value = d.video || '';
+  activeCheck.checked = d.active !== false;
+
+  overlay.classList.add('show');
+}
+function closePanel(){ overlay.classList.remove('show'); currentId = null; }
+document.getElementById('closeBtn').addEventListener('click', closePanel);
+overlay.addEventListener('click', e => { if(e.target === overlay) closePanel(); });
+
+function renderPhoto(d){
+  if(d.photo){
+    photoBox.innerHTML = `<img src="${d.photo}" alt="">`;
+    photoActions.innerHTML = `<button id="replaceBtn">Boshqa surat yuklash</button>`;
+  } else if(d.suggestedPhoto){
+    photoBox.innerHTML = `<img src="${d.suggestedPhoto}" alt="">`;
+    photoActions.innerHTML = `
+      <button class="primary" id="confirmBtn">✓ To'g'ri, tasdiqlash</button>
+      <button class="danger" id="rejectBtn">✕ Noto'g'ri</button>
+      <button id="replaceBtn">Boshqa surat yuklash</button>`;
+  } else {
+    photoBox.innerHTML = `<div class="placeholder">Surat yo'q</div>`;
+    photoActions.innerHTML = `<button class="primary" id="replaceBtn">Surat yuklash</button>`;
+  }
+  const confirmBtn = document.getElementById('confirmBtn');
+  const rejectBtn = document.getElementById('rejectBtn');
+  const replaceBtn = document.getElementById('replaceBtn');
+  if(confirmBtn) confirmBtn.addEventListener('click', () => patchAndRefreshPhoto({confirmPhoto:true}));
+  if(rejectBtn) rejectBtn.addEventListener('click', () => patchAndRefreshPhoto({rejectPhoto:true}));
+  if(replaceBtn) replaceBtn.addEventListener('click', () => document.getElementById('fileInput').click());
+}
+async function patchAndRefreshPhoto(patch){
+  const res = await fetch(`/api/dish/${currentId}`, {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(patch)});
+  const result = await res.json();
+  if(result.ok){
+    const idx = DISHES.findIndex(x => x.id === currentId);
+    DISHES[idx] = result.dish;
+    renderPhoto(result.dish);
+    render();
+  }
+}
+document.getElementById('fileInput').addEventListener('change', async (e) => {
+  const file = e.target.files[0]; e.target.value = '';
+  if(!file) return;
+  const fd = new FormData(); fd.append('file', file);
+  const res = await fetch(`/api/dish/${currentId}/photo`, {method:'POST', body:fd});
+  const result = await res.json();
+  if(result.ok){
+    const idx = DISHES.findIndex(x => x.id === currentId);
+    DISHES[idx].photo = result.url;
+    DISHES[idx].suggestedPhoto = null;
+    renderPhoto(DISHES[idx]);
+    render();
+  }
+});
+
+function renderIngredients(){
+  ingRows.innerHTML = pendingIngredients.map((ing, i) => `
+    <div class="ing-row" data-i="${i}">
+      <input class="name-in" placeholder="Mahsulot nomi" value="${esc(ing.name)}">
+      <input class="amt-in" placeholder="Miqdori (masalan 200 gr)" value="${esc(ing.amount||'')}">
+      <button class="rm" type="button">✕</button>
+    </div>`).join('');
+  ingRows.querySelectorAll('.ing-row').forEach(row => {
+    const i = +row.dataset.i;
+    row.querySelector('.name-in').addEventListener('input', e => pendingIngredients[i].name = e.target.value);
+    row.querySelector('.amt-in').addEventListener('input', e => pendingIngredients[i].amount = e.target.value);
+    row.querySelector('.rm').addEventListener('click', () => { pendingIngredients.splice(i,1); renderIngredients(); });
+  });
+}
+document.getElementById('addIng').addEventListener('click', () => {
+  pendingIngredients.push({name:'', amount:''});
+  renderIngredients();
+});
+
+document.getElementById('saveBtn').addEventListener('click', async () => {
+  const btn = document.getElementById('saveBtn');
+  btn.disabled = true;
+  saveStatus.textContent = 'Saqlanmoqda...';
+  const cleanIngredients = pendingIngredients.filter(i => i.name && i.name.trim());
+  try{
+    const res = await fetch(`/api/dish/${currentId}`, {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ ingredients: cleanIngredients, video: videoInput.value.trim(), active: activeCheck.checked })
+    });
+    const result = await res.json();
+    if(result.ok){
+      const idx = DISHES.findIndex(x => x.id === currentId);
+      DISHES[idx] = result.dish;
+      saveStatus.textContent = 'Saqlandi ✓';
+      saveStatus.className = 'save-status ok';
+      render();
+    } else {
+      saveStatus.textContent = 'Xato: ' + result.error;
+      saveStatus.className = 'save-status';
+    }
+  }catch(e){
+    saveStatus.textContent = 'Tarmoq xatosi';
+  }
+  btn.disabled = false;
+});
+
+loadDishes();
+</script>
+</body>
+</html>
