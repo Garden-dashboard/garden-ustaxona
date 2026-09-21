@@ -20,6 +20,9 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import sync_recipes
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "dishes.json"
 
@@ -75,6 +78,7 @@ def fetch_iiko_dishes():
             continue
         dishes.append({
             "id": p["id"],
+            "num": p.get("num"),
             "name": p["name"].strip(),
             "price": p.get("defaultSalePrice") or 0,
             "group": gname,
@@ -88,6 +92,13 @@ def norm(s):
     s = re.sub(r"[()]", "", s)
     s = re.sub(r"\s+", " ", s).strip()
     return s
+
+
+def significant_words(s):
+    """4+ harfli so'zlar — qisqa umumiy bo'g'inlar (masalan 'ка...' bilan
+    boshlanadigan ikki butunlay boshqa so'z) tasodifan yuqori o'xshashlik
+    ko'rsatib, noto'g'ri surat biriktirilishining oldini olish uchun."""
+    return {w for w in s.split() if len(w) >= 4}
 
 
 def fetch_cms_photos():
@@ -114,10 +125,18 @@ def match_photo(name, cms_photos):
     n = norm(name)
     if n in cms_photos:
         return cms_photos[n], 1.0
+    n_words = significant_words(n)
     close = difflib.get_close_matches(n, list(cms_photos.keys()), n=1, cutoff=0.55)
     if not close:
         return None, 0
     score = difflib.SequenceMatcher(None, n, close[0]).ratio()
+    # Qisqa so'zlarda difflib ratio'si tasodifan yuqori chiqishi mumkin (masalan
+    # "катта бедана" va "картошка барак" — umumiy so'z yo'q, lekin harflar
+    # tasodifan mos tushadi). Shuning uchun, aniq (1.0) moslik bo'lmasa, ikkala
+    # nomda kamida bitta HAQIQIY umumiy so'z (4+ harf) bo'lishi shart —
+    # bo'lmasa, bu tasodifiy o'xshashlik, moslik rad etiladi.
+    if not (n_words & significant_words(close[0])):
+        return None, 0
     return cms_photos[close[0]], score
 
 
@@ -142,6 +161,7 @@ def main():
             cur["name"] = f["name"]
             cur["price"] = f["price"]
             cur["group"] = f["group"]
+            cur["num"] = f.get("num")
             if cur.get("active") is False:
                 cur["active"] = True
                 reactivated += 1
@@ -155,7 +175,7 @@ def main():
                 elif url:
                     suggested, video_photo_status = url, "suggested"
             by_id[f["id"]] = {
-                "id": f["id"], "name": f["name"], "price": f["price"], "group": f["group"],
+                "id": f["id"], "num": f.get("num"), "name": f["name"], "price": f["price"], "group": f["group"],
                 "photo": photo, "suggestedPhoto": suggested, "photoStatus": video_photo_status,
                 "ingredients": [], "video": None, "active": True,
             }
@@ -167,10 +187,37 @@ def main():
             d["active"] = False
             removed += 1
 
+    # --- Tex kartalar (tarkib) ---
+    # iikodagi tex karta har sinxronlashda yangilanadi, LEKIN admin panelda qo'lda
+    # tahrirlangan tarkib (ingredientsManual=True) hech qachon ustidan yozilmaydi.
+    recipes_applied, recipes_manual_kept, recipes_missing = 0, 0, 0
+    try:
+        recipes = sync_recipes.build_recipes()
+        cache = {}
+        for d in by_id.values():
+            r = recipes.get(str(d.get("num") or ""))
+            if r:
+                cache[d["id"]] = r
+            if d.get("ingredientsManual"):
+                recipes_manual_kept += 1
+                continue
+            if r:
+                d["ingredients"] = r["ingredients"]
+                d["recipeYield"] = r["yield"]
+                d["technology"] = r["technology"]
+                recipes_applied += 1
+            else:
+                recipes_missing += 1
+        (DATA_FILE.parent / "recipes_iiko.json").write_text(
+            json.dumps(cache, ensure_ascii=False), encoding="utf-8")
+    except Exception as e:
+        print(f"OGOHLANTIRISH: tex kartalar olinmadi (taomlar ro'yxati baribir yangilandi): {e}", file=sys.stderr)
+
     merged = list(by_id.values())
     DATA_FILE.write_text(json.dumps(merged, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"OK: {len(merged)} taom (+{added} yangi, {updated} yangilandi, "
-          f"{removed} endi iikoda yo'q -> yashirildi, {reactivated} qayta faollashdi)")
+          f"{removed} endi iikoda yo'q -> yashirildi, {reactivated} qayta faollashdi); "
+          f"tex karta: {recipes_applied} qo'llandi, {recipes_manual_kept} qo'lda tahrirlangan (tegilmadi), {recipes_missing} ta taomda tex karta yo'q")
 
     subprocess.run([sys.executable, str(Path(__file__).with_name("generate.py"))], check=True)
 

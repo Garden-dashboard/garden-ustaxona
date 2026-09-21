@@ -6,3 +6,11 @@ scripts/cms_menu_lastgood.json
 scripts/photo_matches.json
 scripts/groups_list.txt
 hourly_sync.log
+scripts/*.csv
+scripts/*.html
+!scripts/template.html
+scripts/*backup*.json
+scripts/dishes.json
+scripts/*.txt
+hourly_sync.log
+__pycache__/

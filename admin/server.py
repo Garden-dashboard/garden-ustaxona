@@ -107,7 +107,12 @@ def save_dish(dish_id):
         return jsonify({"ok": False, "error": "Taom topilmadi"}), 404
 
     if "ingredients" in patch:
-        found["ingredients"] = patch["ingredients"]
+        # Faqat HAQIQATAN o'zgargan bo'lsa "qo'lda tahrirlangan" deb belgilanadi — aks holda
+        # har "Saqlash" bosilganda (masalan faqat video qo'shilganda ham) iikodan kelgan
+        # tarkib avtomatik yangilanishdan chiqib ketardi.
+        if patch["ingredients"] != (found.get("ingredients") or []):
+            found["ingredients"] = patch["ingredients"]
+            found["ingredientsManual"] = True
     if "video" in patch:
         found["video"] = patch["video"] or None
     if "active" in patch:
@@ -124,6 +129,29 @@ def save_dish(dish_id):
 
     save_dishes(dishes)
     return jsonify({"ok": True, "dish": found})
+
+
+@app.post("/api/dish/<dish_id>/reset-ingredients")
+@login_required
+def reset_ingredients(dish_id):
+    """Tarkibni iikodagi tex kartaning asl (oxirgi sinxronlangan) holatiga qaytaradi."""
+    cache_file = ROOT / "data" / "recipes_iiko.json"
+    if not cache_file.exists():
+        return jsonify({"ok": False, "error": "iiko tex karta nusxasi topilmadi (avval sinxronlash kerak)"}), 404
+    cache = json.loads(cache_file.read_text(encoding="utf-8"))
+    r = cache.get(dish_id)
+    if not r:
+        return jsonify({"ok": False, "error": "Bu taomning iikoda tex kartasi yo'q"}), 404
+    dishes = load_dishes()
+    for d in dishes:
+        if d["id"] == dish_id:
+            d["ingredients"] = r["ingredients"]
+            d["recipeYield"] = r["yield"]
+            d["technology"] = r["technology"]
+            d["ingredientsManual"] = False
+            save_dishes(dishes)
+            return jsonify({"ok": True, "dish": d})
+    return jsonify({"ok": False, "error": "Taom topilmadi"}), 404
 
 
 @app.post("/api/dish/<dish_id>/photo")

@@ -118,8 +118,15 @@ h1,h2,h3{ margin:0; text-wrap:balance; }
 .panel-section{ border-top:1px solid var(--line); padding-top:20px; margin-top:20px; }
 .panel-section h4{ font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-faint); font-weight:700; margin-bottom:14px; }
 .ing-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px; }
-.ing-list li{ display:flex; justify-content:space-between; gap:12px; padding:9px 12px; background:var(--surface-2); border-radius:7px; font-size:13.5px; }
-.ing-list .amt{ color:var(--ink-soft); font-variant-numeric:tabular-nums; white-space:nowrap; }
+.ing-list > li{ padding:9px 12px; background:var(--surface-2); border-radius:7px; font-size:13.5px; }
+.ing-main{ display:flex; justify-content:space-between; gap:12px; }
+.ing-list .amt{ color:var(--ink-soft); font-variant-numeric:tabular-nums; text-align:right; }
+.yield-note{ font-size:12.5px; color:var(--ink-soft); margin-bottom:12px; }
+.sub-block{ margin-top:9px; padding:9px 11px; background:var(--surface); border:1px solid var(--line); border-radius:6px; }
+.sub-title{ font-size:11px; color:var(--ink-faint); margin-bottom:6px; }
+.sub-block ul{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:5px; }
+.sub-block li{ display:flex; justify-content:space-between; gap:12px; font-size:12.5px; }
+.tech-note{ margin-top:14px; font-size:13px; color:var(--ink-soft); line-height:1.6; }
 .empty-note{ font-size:13px; color:var(--ink-faint); font-style:italic; }
 .video-wrap{ border-radius:8px; overflow:hidden; background:var(--surface-2); }
 .video-wrap video, .video-wrap iframe{ width:100%; display:block; aspect-ratio:16/9; border:none; }
@@ -192,7 +199,7 @@ h1,h2,h3{ margin:0; text-wrap:balance; }
       <div class="price" id="panelPrice"></div>
 
       <div class="panel-section">
-        <h4>Tarkibi</h4>
+        <h4>Tarkibi (iiko tex kartasi)</h4>
         <div id="panelIngredients"></div>
       </div>
 
@@ -312,8 +319,19 @@ function openDetail(d){
 
   const ingEl = document.getElementById('panelIngredients');
   if(d.ingredients && d.ingredients.length){
-    ingEl.innerHTML = `<ul class="ing-list">${d.ingredients.map(i =>
-      `<li><span>${esc(i.name)}</span><span class="amt">${esc(i.amount||'')}</span></li>`).join('')}</ul>`;
+    const yieldNote = d.recipeYield ? `<div class="yield-note">Retsept: <b>${esc(d.recipeYield)}</b> uchun</div>` : '';
+    const rows = d.ingredients.map(i => {
+      let sub = '';
+      if(i.sub && i.sub.items && i.sub.items.length){
+        sub = `<div class="sub-block"><div class="sub-title">Yarim tayyor mahsulot retsepti (<b>${esc(i.sub.yield)}</b> uchun)</div>
+          <ul>${i.sub.items.map(s => `<li><span>${esc(s.name)}</span><span class="amt">${esc(s.amount||'')}</span></li>`).join('')}</ul></div>`;
+      }
+      return `<li><div class="ing-main"><span>${esc(i.name)}</span><span class="amt">${esc(i.amount||'')}</span></div>${sub}</li>`;
+    }).join('');
+    ingEl.innerHTML = yieldNote + `<ul class="ing-list">${rows}</ul>`;
+    if(d.technology){
+      ingEl.innerHTML += `<div class="tech-note"><b>Texnologiya:</b> ${esc(d.technology)}</div>`;
+    }
   } else {
     ingEl.innerHTML = `<p class="empty-note">Tarkibi hali admin panel orqali kiritilmagan.</p>`;
   }
