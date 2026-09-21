@@ -10,7 +10,7 @@ from collections import OrderedDict
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "dishes.json"
-SITE_DIR = ROOT / "site"
+SITE_DIR = ROOT / "docs"
 TEMPLATE_FILE = Path(__file__).with_name("template.html")
 
 # Guruhlarni mantiqiy tartibda ko'rsatish uchun ustuvorlik ro'yxati — qolganlari
