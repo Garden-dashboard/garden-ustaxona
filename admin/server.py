@@ -13,7 +13,7 @@ from flask import Flask, request, jsonify, Response, session, redirect, url_for,
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "dishes.json"
-UPLOADS_DIR = ROOT / "site" / "uploads"
+UPLOADS_DIR = ROOT / "docs" / "uploads"
 LOGIN_PASSWORD = "200211"
 
 app = Flask(__name__)
