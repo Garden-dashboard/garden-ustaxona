@@ -12,7 +12,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "600 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -205,7 +205,7 @@
   "id": "6d3e3cec-fa15-423d-a609-39f675b66339",
   "name": "Катта бедана 1",
   "price": 40000,
-  "group": "Дисерт кухня",
+  "group": "1-таом",
   "photo": null,
   "suggestedPhoto": null,
   "photoStatus": "missing",
@@ -1444,35 +1444,31 @@
     "name": "Шашлик ижжон (кг) п/ф",
     "amount": "200 gr",
     "sub": {
-     "yield": "21.8 kg",
+     "yield": "21.4 kg",
      "items": [
       {
        "name": "Гушт 3-сорт",
        "amount": "12 kg"
       },
       {
-       "name": "Товук филе",
-       "amount": "3 kg"
-      },
-      {
        "name": "Гушт йоги",
-       "amount": "4.4 kg"
+       "amount": "4.2 kg"
       },
       {
        "name": "Туз",
-       "amount": "225 gr"
+       "amount": "210 gr"
       },
       {
        "name": "Карейс туз",
-       "amount": "150 gr"
+       "amount": "140 gr"
       },
       {
        "name": "Приправа шашлик",
-       "amount": "125 gr"
+       "amount": "120 gr"
       },
       {
        "name": "Кизил бурч (майдаланган)",
-       "amount": "10 gr"
+       "amount": "8 gr"
       },
       {
        "name": "Кора бурч (майда)",
@@ -1484,11 +1480,15 @@
       },
       {
        "name": "Крахмал картофелни",
-       "amount": "20 gr"
+       "amount": "15 gr"
       },
       {
        "name": "Буханка (1шт)",
-       "amount": "brutto 4.2 dona · netto 1.89 dona"
+       "amount": "brutto 4 dona · netto 1.8 dona"
+      },
+      {
+       "name": "Товук филе",
+       "amount": "3 kg"
       }
      ]
     }
@@ -1522,7 +1522,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "250 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -1749,7 +1749,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "300 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -2567,7 +2567,7 @@
  },
  {
   "id": "75092ab2-29a4-4f82-8e4f-642f0a8c618d",
-  "name": "Шафтоли шт",
+  "name": "Шафтоли 1 шт",
   "price": 8000,
   "group": "Фрукты",
   "photo": null,
@@ -4081,8 +4081,8 @@
   "photoStatus": "missing",
   "ingredients": [
    {
-    "name": "Катик",
-    "amount": "brutto 1 dona · netto 0.95 dona"
+    "name": "Катик (литр)",
+    "amount": "1 litr"
    }
   ],
   "video": null,
@@ -5048,7 +5048,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "24102",
   "recipeYield": "1 kg",
   "technology": ""
@@ -5950,12 +5950,8 @@
        "amount": "4 gr"
       },
       {
-       "name": "Куй 1-сорт (Вагурий)",
-       "amount": "250 gr"
-      },
-      {
        "name": "Куй 2-сорт (Вагурий)",
-       "amount": "800 gr"
+       "amount": "1.05 kg"
       },
       {
        "name": "Сув 1,5л",
@@ -6061,12 +6057,8 @@
        "amount": "4 gr"
       },
       {
-       "name": "Куй 1-сорт (Вагурий)",
-       "amount": "250 gr"
-      },
-      {
        "name": "Куй 2-сорт (Вагурий)",
-       "amount": "800 gr"
+       "amount": "1.05 kg"
       },
       {
        "name": "Сув 1,5л",
@@ -6435,7 +6427,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "45 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -6481,7 +6473,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "200 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -8427,7 +8419,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23782",
   "recipeYield": "1 kg",
   "technology": ""
@@ -8449,7 +8441,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "600 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -9980,7 +9972,7 @@
  {
   "id": "e8b1a42a-d90a-4179-830a-b34c12863a29",
   "name": "Кавоб ассорти кичик.",
-  "price": 460000,
+  "price": 480000,
   "group": "Ассорти блюда",
   "photo": null,
   "suggestedPhoto": null,
@@ -10018,7 +10010,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "660 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -10273,35 +10265,31 @@
     "name": "Шашлик ижжон (кг) п/ф",
     "amount": "150 gr",
     "sub": {
-     "yield": "21.8 kg",
+     "yield": "21.4 kg",
      "items": [
       {
        "name": "Гушт 3-сорт",
        "amount": "12 kg"
       },
       {
-       "name": "Товук филе",
-       "amount": "3 kg"
-      },
-      {
        "name": "Гушт йоги",
-       "amount": "4.4 kg"
+       "amount": "4.2 kg"
       },
       {
        "name": "Туз",
-       "amount": "225 gr"
+       "amount": "210 gr"
       },
       {
        "name": "Карейс туз",
-       "amount": "150 gr"
+       "amount": "140 gr"
       },
       {
        "name": "Приправа шашлик",
-       "amount": "125 gr"
+       "amount": "120 gr"
       },
       {
        "name": "Кизил бурч (майдаланган)",
-       "amount": "10 gr"
+       "amount": "8 gr"
       },
       {
        "name": "Кора бурч (майда)",
@@ -10313,11 +10301,15 @@
       },
       {
        "name": "Крахмал картофелни",
-       "amount": "20 gr"
+       "amount": "15 gr"
       },
       {
        "name": "Буханка (1шт)",
-       "amount": "brutto 4.2 dona · netto 1.89 dona"
+       "amount": "brutto 4 dona · netto 1.8 dona"
+      },
+      {
+       "name": "Товук филе",
+       "amount": "3 kg"
       }
      ]
     }
@@ -11132,7 +11124,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "300 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -11831,7 +11823,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "270 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -11987,7 +11979,7 @@
  {
   "id": "7a1fb567-dafe-47d3-aa1f-93fc1a012dff",
   "name": "Раф-кофе кофе",
-  "price": 50000,
+  "price": 40000,
   "group": "Кофе",
   "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/db705f68e8367faf.jpg",
   "suggestedPhoto": null,
@@ -11995,19 +11987,19 @@
   "ingredients": [
    {
     "name": "Кофе лавазза кг(зерновой)",
-    "amount": "18 gr"
+    "amount": "9 gr"
    },
    {
     "name": "Мохито сироп",
-    "amount": "40 ml"
+    "amount": "30 ml"
    },
    {
     "name": "Сливки 35%",
-    "amount": "200 gr"
+    "amount": "100 gr"
    },
    {
-    "name": "Ок кант кг",
-    "amount": "10 gr"
+    "name": "Сут лактел",
+    "amount": "150 ml"
    }
   ],
   "video": null,
@@ -12938,35 +12930,31 @@
     "name": "Шашлик ижжон (кг) п/ф",
     "amount": "200 gr",
     "sub": {
-     "yield": "21.8 kg",
+     "yield": "21.4 kg",
      "items": [
       {
        "name": "Гушт 3-сорт",
        "amount": "12 kg"
       },
       {
-       "name": "Товук филе",
-       "amount": "3 kg"
-      },
-      {
        "name": "Гушт йоги",
-       "amount": "4.4 kg"
+       "amount": "4.2 kg"
       },
       {
        "name": "Туз",
-       "amount": "225 gr"
+       "amount": "210 gr"
       },
       {
        "name": "Карейс туз",
-       "amount": "150 gr"
+       "amount": "140 gr"
       },
       {
        "name": "Приправа шашлик",
-       "amount": "125 gr"
+       "amount": "120 gr"
       },
       {
        "name": "Кизил бурч (майдаланган)",
-       "amount": "10 gr"
+       "amount": "8 gr"
       },
       {
        "name": "Кора бурч (майда)",
@@ -12978,11 +12966,15 @@
       },
       {
        "name": "Крахмал картофелни",
-       "amount": "20 gr"
+       "amount": "15 gr"
       },
       {
        "name": "Буханка (1шт)",
-       "amount": "brutto 4.2 dona · netto 1.89 dona"
+       "amount": "brutto 4 dona · netto 1.8 dona"
+      },
+      {
+       "name": "Товук филе",
+       "amount": "3 kg"
       }
      ]
     }
@@ -13597,7 +13589,7 @@
   "video": null,
   "active": true,
   "num": "23415",
-  "recipeYield": "1 porsiya",
+  "recipeYield": "1 dona",
   "technology": ""
  },
  {
@@ -15629,7 +15621,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "50 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -15879,7 +15871,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "40 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -15979,7 +15971,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "40 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -19876,7 +19868,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "40 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -20066,7 +20058,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23512",
   "recipeYield": "1 kg",
   "technology": ""
@@ -20164,51 +20156,59 @@
     "name": "Гарден олот сомса маринад п\\ф",
     "amount": "50 gr",
     "sub": {
-     "yield": "3.4 kg",
+     "yield": "15.5 kg",
      "items": [
       {
-       "name": "Олот сомса гушт тугралган п/ф",
-       "amount": "1 kg"
+       "name": "Сомса гушт тугралган п/ф",
+       "amount": "5 kg"
       },
       {
        "name": "Гушт йоги",
-       "amount": "500 gr"
+       "amount": "2 kg"
       },
       {
        "name": "Пийоз (Тозаланган) п\\ф",
-       "amount": "1.2 kg"
+       "amount": "5 kg"
       },
       {
        "name": "Семечка йог",
-       "amount": "brutto 200 ml · netto 180 ml"
+       "amount": "brutto 444 ml · netto 400 ml"
       },
       {
        "name": "Туз",
-       "amount": "40 gr"
+       "amount": "200 gr"
       },
       {
        "name": "Кенза (переправа)",
-       "amount": "4 gr"
+       "amount": "10 gr"
       },
       {
        "name": "Зира",
-       "amount": "4 gr"
+       "amount": "10 gr"
       },
       {
        "name": "Карейс туз",
-       "amount": "20 gr"
+       "amount": "100 gr"
       },
       {
        "name": "Кора бурч (майда)",
-       "amount": "8 gr"
+       "amount": "40 gr"
       },
       {
        "name": "СУВ",
-       "amount": "400 ml"
+       "amount": "1.5 litr"
       },
       {
        "name": "Болгарский (Тозаланган) п\\ф",
-       "amount": "40 gr"
+       "amount": "1 kg"
+      },
+      {
+       "name": "Сув 1,5л",
+       "amount": "brutto 0.4 dona · netto 0.6 dona"
+      },
+      {
+       "name": "Соя соус (литр)",
+       "amount": "130 ml"
       }
      ]
     }
@@ -20518,51 +20518,59 @@
     "name": "Гарден олот сомса маринад п\\ф",
     "amount": "100 gr",
     "sub": {
-     "yield": "3.4 kg",
+     "yield": "15.5 kg",
      "items": [
       {
-       "name": "Олот сомса гушт тугралган п/ф",
-       "amount": "1 kg"
+       "name": "Сомса гушт тугралган п/ф",
+       "amount": "5 kg"
       },
       {
        "name": "Гушт йоги",
-       "amount": "500 gr"
+       "amount": "2 kg"
       },
       {
        "name": "Пийоз (Тозаланган) п\\ф",
-       "amount": "1.2 kg"
+       "amount": "5 kg"
       },
       {
        "name": "Семечка йог",
-       "amount": "brutto 200 ml · netto 180 ml"
+       "amount": "brutto 444 ml · netto 400 ml"
       },
       {
        "name": "Туз",
-       "amount": "40 gr"
+       "amount": "200 gr"
       },
       {
        "name": "Кенза (переправа)",
-       "amount": "4 gr"
+       "amount": "10 gr"
       },
       {
        "name": "Зира",
-       "amount": "4 gr"
+       "amount": "10 gr"
       },
       {
        "name": "Карейс туз",
-       "amount": "20 gr"
+       "amount": "100 gr"
       },
       {
        "name": "Кора бурч (майда)",
-       "amount": "8 gr"
+       "amount": "40 gr"
       },
       {
        "name": "СУВ",
-       "amount": "400 ml"
+       "amount": "1.5 litr"
       },
       {
        "name": "Болгарский (Тозаланган) п\\ф",
-       "amount": "40 gr"
+       "amount": "1 kg"
+      },
+      {
+       "name": "Сув 1,5л",
+       "amount": "brutto 0.4 dona · netto 0.6 dona"
+      },
+      {
+       "name": "Соя соус (литр)",
+       "amount": "130 ml"
       }
      ]
     }
@@ -20619,7 +20627,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "40 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -21512,27 +21520,27 @@
     "name": "Гарден Сомса мариновка п\\ф",
     "amount": "100 gr",
     "sub": {
-     "yield": "5 kg",
+     "yield": "10 kg",
      "items": [
       {
        "name": "Сомса гушт тугралган п/ф",
-       "amount": "2 kg"
+       "amount": "4 kg"
       },
       {
        "name": "Пийоз (Тозаланган) п\\ф",
-       "amount": "2.2 kg"
+       "amount": "4.7 kg"
       },
       {
        "name": "Гушт йоги",
-       "amount": "360 gr"
+       "amount": "1 kg"
       },
       {
        "name": "Семечка йог",
-       "amount": "brutto 200 ml · netto 180 ml"
+       "amount": "brutto 400 ml · netto 360 ml"
       },
       {
        "name": "Туз",
-       "amount": "75 gr"
+       "amount": "140 gr"
       },
       {
        "name": "Зира",
@@ -21540,19 +21548,23 @@
       },
       {
        "name": "Карейс туз",
-       "amount": "5 gr"
+       "amount": "10 gr"
       },
       {
        "name": "Кенза (переправа)",
        "amount": "5 gr"
       },
       {
-       "name": "Киви (штни килолиси) п\\ф",
-       "amount": "150 gr"
+       "name": "Сув 1,5л",
+       "amount": "brutto 0.1333 dona · netto 0.19995 dona"
       },
       {
-       "name": "Сув 1,5л",
-       "amount": "brutto 0.1 dona · netto 0.15 dona"
+       "name": "Соя соус (литр)",
+       "amount": "100 ml"
+      },
+      {
+       "name": "Кора бурч (майда)",
+       "amount": "10 gr"
       }
      ]
     }
@@ -21776,7 +21788,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "40 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -22309,7 +22321,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "30 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -22480,7 +22492,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23515",
   "recipeYield": "1 dona",
   "technology": ""
@@ -22500,7 +22512,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23509",
   "recipeYield": "1 dona",
   "technology": ""
@@ -24050,8 +24062,8 @@
     "amount": "2 dona"
    },
    {
-    "name": "Шафтоли  шт",
-    "amount": "2 dona"
+    "name": "Медовка  мандарин шт",
+    "amount": "4 dona"
    },
    {
     "name": "Грейфрут шт",
@@ -24085,6 +24097,10 @@
    {
     "name": "Анор шт",
     "amount": "1 dona"
+   },
+   {
+    "name": "Хурмо мева шт",
+    "amount": "2 dona"
    }
   ],
   "video": null,
@@ -24108,7 +24124,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23517",
   "recipeYield": "1 kg",
   "technology": ""
@@ -24979,7 +24995,7 @@
  {
   "id": "d56e4594-645a-438b-80f3-4a932539b1a1",
   "name": "Ассорти балик",
-  "price": 160000,
+  "price": 300000,
   "group": "Баликлар",
   "photo": null,
   "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/d5343a988b9f0291.jpg",
@@ -24987,15 +25003,15 @@
   "ingredients": [
    {
     "name": "Сетка балик 1кг",
-    "amount": "300 gr"
+    "amount": "500 gr"
+   },
+   {
+    "name": "Соуса коврилган балик (1кг)",
+    "amount": "500 gr"
    },
    {
     "name": "Ковурилган балик 1кг",
-    "amount": "300 gr"
-   },
-   {
-    "name": "Ковурилган балик 1кг",
-    "amount": "300 gr"
+    "amount": "500 gr"
    }
   ],
   "video": null,
@@ -25842,7 +25858,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "270 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -26304,7 +26320,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23878",
   "recipeYield": "1 porsiya",
   "technology": ""
@@ -26512,7 +26528,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23901",
   "recipeYield": "1 kg",
   "technology": ""
@@ -26532,7 +26548,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23899",
   "recipeYield": "1 kg",
   "technology": ""
@@ -26552,7 +26568,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23900",
   "recipeYield": "1 dona",
   "technology": ""
@@ -26721,7 +26737,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "600 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -26827,7 +26843,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23996",
   "recipeYield": "1 porsiya",
   "technology": ""
@@ -27018,7 +27034,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23919",
   "recipeYield": "1 dona",
   "technology": ""
@@ -27065,7 +27081,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "60 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -27191,7 +27207,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "60 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -28050,7 +28066,7 @@
     "name": "Коврилган гушт п\\ф",
     "amount": "30 gr",
     "sub": {
-     "yield": "7.4 kg",
+     "yield": "7.7 kg",
      "items": [
       {
        "name": "Ковурилган гушт маринад п\\ф",
@@ -28692,47 +28708,47 @@
     "name": "Корин туйок п/ф",
     "amount": "brutto 1 porsiya · netto 1.2495 porsiya",
     "sub": {
-     "yield": "3 porsiya",
+     "yield": "20 porsiya",
      "items": [
       {
        "name": "Зигрик кг",
-       "amount": "1.5 kg"
+       "amount": "9 kg"
       },
       {
        "name": "Корин",
-       "amount": "2 kg"
+       "amount": "12.6 kg"
       },
       {
        "name": "Туйок",
-       "amount": "1 dona"
+       "amount": "9 dona"
       },
       {
        "name": "Туз",
-       "amount": "40 gr"
+       "amount": "240 gr"
       },
       {
        "name": "Семечка йог",
-       "amount": "brutto 150 ml · netto 135 ml"
+       "amount": "brutto 1 litr · netto 900 ml"
       },
       {
        "name": "Кора бурч (майда)",
-       "amount": "5 gr"
+       "amount": "30 gr"
       },
       {
        "name": "Лавро лист переправа",
-       "amount": "2 gr"
+       "amount": "12 gr"
       },
       {
        "name": "Шивит куритилган",
-       "amount": "0.005 dona"
+       "amount": "0.04 dona"
       },
       {
-       "name": "Чеснок",
-       "amount": "45 gr"
+       "name": "Чеснок (Тозаланган) п\\ф",
+       "amount": "270 gr"
       },
       {
        "name": "Лимон",
-       "amount": "20 gr"
+       "amount": "120 gr"
       }
      ]
     }
@@ -28965,31 +28981,6 @@
   "photoStatus": "confirmed",
   "ingredients": [
    {
-    "name": "Ананас Консерва катта п/ф",
-    "amount": "brutto 3 dona · netto 0.105 dona",
-    "sub": {
-     "yield": "60 dona",
-     "items": [
-      {
-       "name": "Ананас консерва катта",
-       "amount": "brutto 1 dona · netto 2.1 dona"
-      }
-     ]
-    }
-   },
-   {
-    "name": "Грейфрут шт",
-    "amount": "0.5 dona"
-   },
-   {
-    "name": "Мева безак (КИЧИК)",
-    "amount": "0.1 dona"
-   },
-   {
-    "name": "Узум (Гарден)",
-    "amount": "150 gr"
-   },
-   {
     "name": "Олма Шт (Гарден)",
     "amount": "1 dona"
    },
@@ -28998,8 +28989,8 @@
     "amount": "1 dona"
    },
    {
-    "name": "Шафтоли  шт",
-    "amount": "1 dona"
+    "name": "Медовка  мандарин шт",
+    "amount": "2 dona"
    },
    {
     "name": "Мандарин шт",
@@ -29018,8 +29009,37 @@
     "amount": "1 dona"
    },
    {
+    "name": "Ананас Консерва катта п/ф",
+    "amount": "brutto 3 dona · netto 0.105 dona",
+    "sub": {
+     "yield": "60 dona",
+     "items": [
+      {
+       "name": "Ананас консерва катта",
+       "amount": "brutto 1 dona · netto 2.1 dona"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Грейфрут шт",
+    "amount": "0.25 dona"
+   },
+   {
+    "name": "Мева безак (КИЧИК)",
+    "amount": "0.1 dona"
+   },
+   {
+    "name": "Узум (Гарден)",
+    "amount": "150 gr"
+   },
+   {
     "name": "Анор шт",
     "amount": "0.5 dona"
+   },
+   {
+    "name": "Хурмо мева шт",
+    "amount": "1 dona"
    }
   ],
   "video": null,
@@ -29044,32 +29064,6 @@
    {
     "name": "Карейс туз",
     "amount": "3 gr"
-   },
-   {
-    "name": "Памидор (Тозаланган) п\\ф",
-    "amount": "50 gr",
-    "sub": {
-     "yield": "9.78 kg",
-     "items": [
-      {
-       "name": "Памидор кг",
-       "amount": "brutto 10.444 kg · netto 9.78 kg"
-      }
-     ]
-    }
-   },
-   {
-    "name": "Бодринг (Тозаланган) п\\ф",
-    "amount": "30 gr",
-    "sub": {
-     "yield": "1 kg",
-     "items": [
-      {
-       "name": "Бодринг кг",
-       "amount": "1.1 kg"
-      }
-     ]
-    }
    },
    {
     "name": "Соус  п\\ф",
@@ -29148,6 +29142,23 @@
    {
     "name": "Урганч УН",
     "amount": "100 gr"
+   },
+   {
+    "name": "Пийоз (Тозаланган) п\\ф",
+    "amount": "50 gr",
+    "sub": {
+     "yield": "2.42 kg",
+     "items": [
+      {
+       "name": "Пийоз",
+       "amount": "3.053 kg"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Лимон (шт)",
+    "amount": "0.25 dona"
    }
   ],
   "video": null,
@@ -29182,35 +29193,31 @@
     "name": "Шашлик ижжон (кг) п/ф",
     "amount": "100 gr",
     "sub": {
-     "yield": "21.8 kg",
+     "yield": "21.4 kg",
      "items": [
       {
        "name": "Гушт 3-сорт",
        "amount": "12 kg"
       },
       {
-       "name": "Товук филе",
-       "amount": "3 kg"
-      },
-      {
        "name": "Гушт йоги",
-       "amount": "4.4 kg"
+       "amount": "4.2 kg"
       },
       {
        "name": "Туз",
-       "amount": "225 gr"
+       "amount": "210 gr"
       },
       {
        "name": "Карейс туз",
-       "amount": "150 gr"
+       "amount": "140 gr"
       },
       {
        "name": "Приправа шашлик",
-       "amount": "125 gr"
+       "amount": "120 gr"
       },
       {
        "name": "Кизил бурч (майдаланган)",
-       "amount": "10 gr"
+       "amount": "8 gr"
       },
       {
        "name": "Кора бурч (майда)",
@@ -29222,11 +29229,15 @@
       },
       {
        "name": "Крахмал картофелни",
-       "amount": "20 gr"
+       "amount": "15 gr"
       },
       {
        "name": "Буханка (1шт)",
-       "amount": "brutto 4.2 dona · netto 1.89 dona"
+       "amount": "brutto 4 dona · netto 1.8 dona"
+      },
+      {
+       "name": "Товук филе",
+       "amount": "3 kg"
       }
      ]
     }
@@ -29391,35 +29402,31 @@
     "name": "Шашлик ижжон (кг) п/ф",
     "amount": "200 gr",
     "sub": {
-     "yield": "21.8 kg",
+     "yield": "21.4 kg",
      "items": [
       {
        "name": "Гушт 3-сорт",
        "amount": "12 kg"
       },
       {
-       "name": "Товук филе",
-       "amount": "3 kg"
-      },
-      {
        "name": "Гушт йоги",
-       "amount": "4.4 kg"
+       "amount": "4.8 kg"
       },
       {
        "name": "Туз",
-       "amount": "225 gr"
+       "amount": "210 gr"
       },
       {
        "name": "Карейс туз",
-       "amount": "150 gr"
+       "amount": "140 gr"
       },
       {
        "name": "Приправа шашлик",
-       "amount": "125 gr"
+       "amount": "120 gr"
       },
       {
        "name": "Кизил бурч (майдаланган)",
-       "amount": "10 gr"
+       "amount": "8 gr"
       },
       {
        "name": "Кора бурч (майда)",
@@ -29431,11 +29438,11 @@
       },
       {
        "name": "Крахмал картофелни",
-       "amount": "20 gr"
+       "amount": "15 gr"
       },
       {
        "name": "Буханка (1шт)",
-       "amount": "brutto 4.2 dona · netto 1.89 dona"
+       "amount": "brutto 4 dona · netto 1.8 dona"
       }
      ]
     }
@@ -29533,9 +29540,720 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "22589",
   "recipeYield": "1 porsiya",
   "technology": ""
+ },
+ {
+  "id": "d310681e-fa38-4c15-8d2b-c96fc067d9ba",
+  "num": "24197",
+  "name": "Мени-мен 1 порц",
+  "price": 35000,
+  "group": "1-таом",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [
+   {
+    "name": "Мене мен п/ф",
+    "amount": "300 gr",
+    "sub": {
+     "yield": "2.8 kg",
+     "items": [
+      {
+       "name": "Пийоз (Тозаланган) п\\ф",
+       "amount": "1 kg"
+      },
+      {
+       "name": "Памидор (Тозаланган) п\\ф",
+       "amount": "1 kg"
+      },
+      {
+       "name": "Болгарский (Тозаланган) п\\ф",
+       "amount": "1 kg"
+      },
+      {
+       "name": "Томатний паста",
+       "amount": "0.325 dona"
+      },
+      {
+       "name": "Туз",
+       "amount": "15 gr"
+      },
+      {
+       "name": "Кора бурч (майда)",
+       "amount": "6 gr"
+      },
+      {
+       "name": "Осма шорва п/ф",
+       "amount": "brutto 0.3 porsiya · netto 0.15 porsiya"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Зелен (Тозаланган) п\\ф",
+    "amount": "5 gr",
+    "sub": {
+     "yield": "2.27 kg",
+     "items": [
+      {
+       "name": "Зелен",
+       "amount": "2.841 kg"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Тухум",
+    "amount": "2 dona"
+   },
+   {
+    "name": "Моцарелла сыр",
+    "amount": "15 gr"
+   }
+  ],
+  "video": null,
+  "active": true,
+  "recipeYield": "1 porsiya",
+  "technology": ""
+ },
+ {
+  "id": "3625a6f0-7678-49ee-a353-42c87e792b14",
+  "num": "24205",
+  "name": "Грейфрут салат",
+  "price": 58000,
+  "group": "Сояли салатлар",
+  "photo": null,
+  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/ee2473c91e18682a.jpg",
+  "photoStatus": "suggested",
+  "ingredients": [
+   {
+    "name": "Руккола (Тозаланган) п\\ф",
+    "amount": "30 gr",
+    "sub": {
+     "yield": "750 gr",
+     "items": [
+      {
+       "name": "Руккола",
+       "amount": "1 kg"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Айсберг (Тозаланган) п\\ф",
+    "amount": "30 gr",
+    "sub": {
+     "yield": "700 gr",
+     "items": [
+      {
+       "name": "Салат Айсберг",
+       "amount": "1.15 kg"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Салат лист (Тозаланган) п\\ф",
+    "amount": "30 gr",
+    "sub": {
+     "yield": "800 gr",
+     "items": [
+      {
+       "name": "Салат лист",
+       "amount": "1.1 kg"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Грейфрут шт",
+    "amount": "0.5 dona"
+   },
+   {
+    "name": "Орех Пекан",
+    "amount": "10 gr"
+   },
+   {
+    "name": "Творожный сыр",
+    "amount": "30 gr"
+   },
+   {
+    "name": "Горчитца (Зернестая)",
+    "amount": "20 gr"
+   },
+   {
+    "name": "Соя соус (литр)",
+    "amount": "10 ml"
+   },
+   {
+    "name": "Лимон сироп",
+    "amount": "brutto 10 ml · netto 9.8 ml"
+   },
+   {
+    "name": "Семечка йог",
+    "amount": "brutto 22 ml · netto 20 ml"
+   },
+   {
+    "name": "Асал",
+    "amount": "20 gr"
+   }
+  ],
+  "video": null,
+  "active": true,
+  "recipeYield": "1 porsiya",
+  "technology": ""
+ },
+ {
+  "id": "f2f8abf8-18fa-4009-bbed-89f81a379823",
+  "num": "24216",
+  "name": "Делизия салат 1 порц",
+  "price": 100000,
+  "group": "Сояли салатлар",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [
+   {
+    "name": "Салат гушт п/ф",
+    "amount": "60 gr",
+    "sub": {
+     "yield": "31 kg",
+     "items": [
+      {
+       "name": "2-сорт (салат гушт)",
+       "amount": "60 kg"
+      },
+      {
+       "name": "Туз",
+       "amount": "1.5 kg"
+      },
+      {
+       "name": "Сув 1,5л",
+       "amount": "brutto 3 dona · netto 4.5 dona"
+      },
+      {
+       "name": "Приправа шашлик",
+       "amount": "90 gr"
+      },
+      {
+       "name": "Чеснок (Тозаланган) п\\ф",
+       "amount": "180 gr"
+      },
+      {
+       "name": "Киви",
+       "amount": "480 gr"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Ананас Консерва катта п/ф",
+    "amount": "brutto 2 dona · netto 0.07 dona",
+    "sub": {
+     "yield": "60 dona",
+     "items": [
+      {
+       "name": "Ананас консерва катта",
+       "amount": "brutto 1 dona · netto 2.1 dona"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Памидор отходсиз (Салат) п/ф",
+    "amount": "40 gr",
+    "sub": {
+     "yield": "800 gr",
+     "items": [
+      {
+       "name": "Памидор кг",
+       "amount": "1 kg"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Оливка",
+    "amount": "30 gr"
+   },
+   {
+    "name": "Руккола (Тозаланган) п\\ф",
+    "amount": "20 gr",
+    "sub": {
+     "yield": "750 gr",
+     "items": [
+      {
+       "name": "Руккола",
+       "amount": "1 kg"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Айсберг (Тозаланган) п\\ф",
+    "amount": "20 gr",
+    "sub": {
+     "yield": "700 gr",
+     "items": [
+      {
+       "name": "Салат Айсберг",
+       "amount": "1.15 kg"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Салат лист (Тозаланган) п\\ф",
+    "amount": "20 gr",
+    "sub": {
+     "yield": "800 gr",
+     "items": [
+      {
+       "name": "Салат лист",
+       "amount": "1.1 kg"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Апелсин шт",
+    "amount": "0.5 dona"
+   },
+   {
+    "name": "Пармезан Сыр кг",
+    "amount": "10 gr"
+   },
+   {
+    "name": "Горчитца (Зернестая)",
+    "amount": "10 gr"
+   },
+   {
+    "name": "Лимон сироп",
+    "amount": "brutto 10 ml · netto 9.8 ml"
+   },
+   {
+    "name": "Асал",
+    "amount": "10 gr"
+   },
+   {
+    "name": "Фиалетивий пийоз (Тозаланган) п\\ф",
+    "amount": "20 gr",
+    "sub": {
+     "yield": "1.144 kg",
+     "items": [
+      {
+       "name": "Пийоз Кизил (фиалетвий)",
+       "amount": "1.412 kg"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Зелен (Тозаланган) п\\ф",
+    "amount": "10 gr",
+    "sub": {
+     "yield": "2.27 kg",
+     "items": [
+      {
+       "name": "Зелен",
+       "amount": "2.841 kg"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Туз",
+    "amount": "5 gr"
+   },
+   {
+    "name": "Кора бурч (майда)",
+    "amount": "3 gr"
+   },
+   {
+    "name": "Оливковое масло",
+    "amount": "10 ml"
+   }
+  ],
+  "video": null,
+  "active": true,
+  "recipeYield": "1 porsiya",
+  "technology": ""
+ },
+ {
+  "id": "8748e0e3-2441-4bfc-ad0e-740d33345515",
+  "num": "24218",
+  "name": "Паста Алфредоо",
+  "price": 50000,
+  "group": "2-таом",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [
+   {
+    "name": "Товук филе",
+    "amount": "50 gr"
+   },
+   {
+    "name": "Свежи замарик (кг)",
+    "amount": "50 gr"
+   },
+   {
+    "name": "Семечка йог",
+    "amount": "brutto 44 ml · netto 40 ml"
+   },
+   {
+    "name": "Сливки 20 %",
+    "amount": "0.1 dona"
+   },
+   {
+    "name": "Чеснок (Тозаланган) п\\ф",
+    "amount": "5 gr",
+    "sub": {
+     "yield": "1.762 kg",
+     "items": [
+      {
+       "name": "Чеснок",
+       "amount": "2 kg"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Пармезан Сыр кг",
+    "amount": "20 gr"
+   }
+  ],
+  "video": null,
+  "active": true,
+  "recipeYield": "1 porsiya",
+  "technology": ""
+ },
+ {
+  "id": "63b85494-f1ee-436a-af22-3818076751b6",
+  "num": "24220",
+  "name": "Медовка 1 шт",
+  "price": 5000,
+  "group": "Фрукты",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [
+   {
+    "name": "Медовка  мандарин шт",
+    "amount": "1 dona"
+   }
+  ],
+  "video": null,
+  "active": true,
+  "recipeYield": "1 dona",
+  "technology": ""
+ },
+ {
+  "id": "2c75691d-db49-4fd1-b069-732dcb3e7ba3",
+  "num": "24221",
+  "name": "Хурмо 1 шт",
+  "price": 10000,
+  "group": "Фрукты",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [
+   {
+    "name": "Хурмо мева шт",
+    "amount": "1 dona"
+   }
+  ],
+  "video": null,
+  "active": true,
+  "recipeYield": "1 dona",
+  "technology": ""
+ },
+ {
+  "id": "4bd30e65-9f64-436f-8415-0f716f00b394",
+  "num": "24225",
+  "name": "Ассорти балик (160)",
+  "price": 160000,
+  "group": "Баликлар",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [
+   {
+    "name": "Сетка балик 1кг",
+    "amount": "300 gr"
+   },
+   {
+    "name": "Ковурилган балик 1кг",
+    "amount": "300 gr"
+   },
+   {
+    "name": "Соуса коврилган балик (1кг)",
+    "amount": "300 gr"
+   }
+  ],
+  "video": null,
+  "active": true,
+  "recipeYield": "1 porsiya",
+  "technology": ""
+ },
+ {
+  "id": "78c9ed33-e77b-4fa6-9c4f-cb4cd18168a1",
+  "num": "23600",
+  "name": "Оливка 50 гр",
+  "price": 15000,
+  "group": "Салат прочее",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [
+   {
+    "name": "Оливка",
+    "amount": "50 gr"
+   }
+  ],
+  "video": null,
+  "active": true,
+  "recipeYield": "1 porsiya",
+  "technology": ""
+ },
+ {
+  "id": "3aaf9f9f-27e9-488b-a21c-becb7b74c3b9",
+  "num": "24227",
+  "name": "Имбир чай",
+  "price": 29000,
+  "group": "Фруктовый чай",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [
+   {
+    "name": "Имбир",
+    "amount": "20 gr"
+   },
+   {
+    "name": "Лимон (шт)",
+    "amount": "1 dona"
+   },
+   {
+    "name": "Шакар кг",
+    "amount": "40 gr"
+   },
+   {
+    "name": "Асал",
+    "amount": "40 gr"
+   },
+   {
+    "name": "Мята п\\ф Гарден",
+    "amount": "3 gr",
+    "sub": {
+     "yield": "186 gr",
+     "items": [
+      {
+       "name": "Мята",
+       "amount": "264 gr"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Тесс чой шт",
+    "amount": "1 dona"
+   }
+  ],
+  "video": null,
+  "active": true,
+  "recipeYield": "1 porsiya",
+  "technology": ""
+ },
+ {
+  "id": "c5e2eae8-a66d-45f7-ac5a-082ea2bb3458",
+  "num": "24228",
+  "name": "Манго Маракуя чай",
+  "price": 29000,
+  "group": "Фруктовый чай",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [
+   {
+    "name": "Тесс чой шт",
+    "amount": "1 dona"
+   },
+   {
+    "name": "Апелсин шт",
+    "amount": "0.25 dona"
+   },
+   {
+    "name": "Лимон (шт)",
+    "amount": "0.25 dona"
+   },
+   {
+    "name": "Мята п\\ф Гарден",
+    "amount": "2 gr",
+    "sub": {
+     "yield": "186 gr",
+     "items": [
+      {
+       "name": "Мята",
+       "amount": "264 gr"
+      }
+     ]
+    }
+   },
+   {
+    "name": "Мохито сироп",
+    "amount": "20 ml"
+   },
+   {
+    "name": "Лимон сироп",
+    "amount": "brutto 20 ml · netto 20 ml"
+   },
+   {
+    "name": "Асал",
+    "amount": "80 gr"
+   }
+  ],
+  "video": null,
+  "active": true,
+  "recipeYield": "1 porsiya",
+  "technology": ""
+ },
+ {
+  "id": "92aac816-60aa-4f00-9f29-af935165e2ae",
+  "num": "24229",
+  "name": "Малина чай",
+  "price": 29000,
+  "group": "Фруктовый чай",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [
+   {
+    "name": "Тесс чой шт",
+    "amount": "1 dona"
+   },
+   {
+    "name": "Асал",
+    "amount": "80 gr"
+   },
+   {
+    "name": "Апелсин шт",
+    "amount": "0.25 dona"
+   },
+   {
+    "name": "Лимон (шт)",
+    "amount": "0.25 dona"
+   },
+   {
+    "name": "Олма Шт (Гарден)",
+    "amount": "0.2 dona"
+   },
+   {
+    "name": "Мохито сироп",
+    "amount": "20 ml"
+   },
+   {
+    "name": "Лимон сироп",
+    "amount": "brutto 20 ml · netto 20 ml"
+   }
+  ],
+  "video": null,
+  "active": true,
+  "recipeYield": "1 porsiya",
+  "technology": ""
+ },
+ {
+  "id": "0756a74a-855b-48c1-863a-932db27dc9ef",
+  "num": "24242",
+  "name": "Cырный ассорти",
+  "price": 195000,
+  "group": "Свежый салатлар",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
+ },
+ {
+  "id": "eccb0881-89e5-4883-a9f4-97d31f13a8b0",
+  "num": "24243",
+  "name": "Ковурилган гушт 1 порц",
+  "price": 120000,
+  "group": "2-таом",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
+ },
+ {
+  "id": "2989d620-3b85-4c73-8d89-e620350eaf67",
+  "num": "24248",
+  "name": "Руккола с апельсином 1 порц",
+  "price": 55000,
+  "group": "Сояли салатлар",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
+ },
+ {
+  "id": "945a1b35-bb9d-4172-a434-62870a6114f5",
+  "num": "24251",
+  "name": "Рыбный тарелка 1 порц",
+  "price": 250000,
+  "group": "Дисерт кухня",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
+ },
+ {
+  "id": "7d1c6fe0-ffdd-43ac-90c1-8c75f803aa1c",
+  "num": "24252",
+  "name": "Лагидзе (0,5л) 1шт",
+  "price": 19000,
+  "group": "Напитка",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
+ },
+ {
+  "id": "ff8f2262-648b-4ce0-8145-64000894712b",
+  "num": "24253",
+  "name": "Лимон фреш баночный 1шт",
+  "price": 15000,
+  "group": "Напитка",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
+ },
+ {
+  "id": "157e9c12-6b1b-4576-82dd-ab7f44e41f68",
+  "num": "24254",
+  "name": "Миллий лимо (0,5л) 1шт",
+  "price": 9000,
+  "group": "Напитка",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
  }
 ]
