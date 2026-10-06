@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+
+<html>
+<head>
+    <title>Log in</title>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        body * {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: xx-large;
+            text-align: center;
+        }
+
+        .Logo {
+            color: red;
+            font-weight: bold;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+    <link rel="shortcut icon" href="/resto/images/favicon.ico">
+</head>
+<body onload="document.f.j_username.focus();">
+<h1><span class="Logo">iiko</span><br/>Log in</h1>
+
+
+
+
+    
+
+
+<form name="f" action="j_spring_security_check" method="POST">
+    <table>
+        <tr>
+            <td><label for="username">Login</label></td>
+            <td><input type="text" name="j_username" id="username"
+                       value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="password"> Password</label></td>
+            <td><input type="password" name="j_password" id="password"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="_spring_security_remember_me" id="rememberMe">
+            </td>
+            <td title="Do not ask password for two weeks">
+                <label for="rememberMe">Remember</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan='2'><input name="submit" type="submit" value="Log in"></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
