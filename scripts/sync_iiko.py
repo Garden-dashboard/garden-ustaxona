@@ -33,7 +33,9 @@ ROOT_GROUP_ID = "904469a5-8846-4356-a057-5f8b028c8b0c"  # "Olimp Garden restaran
 EXCLUDE_GROUPS = {"Одежда", "Пасуда"}  # oziq-ovqat bo'lmagan, iikoda DISH deb belgilangan bo'limlar
 
 CMS_BASE = "http://178.104.44.177"
-LIVE_MENU_URL = "https://garden-dashboard.github.io/olimp-garden-menu/"
+LIVE_MENU_URL = "https://menu.olimpgarden.uz/"
+# Mijozlar menyusining ma'lumot bazasi — surat manbai (iiko ID bo'yicha aniq moslik)
+MENU_ITEMS_FILE = Path(r"C:\Users\User\GardenMenu\data\menu_items.json")
 CONFIRM_THRESHOLD = 0.72
 
 
@@ -101,23 +103,24 @@ def significant_words(s):
     return {w for w in s.split() if len(w) >= 4}
 
 
-def fetch_cms_photos():
-    """Eng oxirgi ishlagan tablet-menyu saytidan (CMS o'zi hozir buzilgan bo'lishi
-    mumkinligi uchun undan emas) taom-surat lug'atini oladi."""
-    try:
-        html = urllib.request.urlopen(LIVE_MENU_URL, timeout=20).read().decode("utf-8")
-    except Exception as e:
-        print(f"OGOHLANTIRISH: CMS surat manbasi olinmadi: {e}", file=sys.stderr)
-        return {}
-    m = re.search(r'id="menu-data"[^>]*>(.*?)</script>', html, re.S)
-    if not m:
-        return {}
-    data = json.loads(m.group(1))
+def fetch_menu_photos():
+    """Mijozlar menyusining o'z bazasidan (GardenMenu/data/menu_items.json) surat
+    lug'atini oladi — kalit sifatida iiko ID ishlatiladi.
+
+    TARIX: ilgari suratlar jonli sayt HTML'idan `id="menu-data"` yorlig'i orqali
+    o'qilib, NOM bo'yicha taxminiy (fuzzy) moslashtirilardi. Menyu 2026-09-24'da
+    yangi dizaynga o'tganda o'sha yorliq `garden-data` bo'lib ketdi va aloqa jimgina
+    uzildi. Endi ikkala tizim ham BIR XIL iiko ID'dan foydalangani uchun moslik
+    100% aniq — taxmin qilishning hojati yo'q."""
     out = {}
-    for c in data["categories"]:
-        for it in c["items"]:
-            if it.get("img"):
-                out[norm(it["n"])] = LIVE_MENU_URL + it["img"]
+    try:
+        items = json.loads(MENU_ITEMS_FILE.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"OGOHLANTIRISH: menyu surat bazasi o'qilmadi: {e}", file=sys.stderr)
+        return out
+    for it in items:
+        if it.get("photo") and it.get("id"):
+            out[it["id"]] = LIVE_MENU_URL + it["photo"]
     return out
 
 
@@ -148,12 +151,13 @@ def main():
 
     existing = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     by_id = {d["id"]: d for d in existing}
-    cms_photos = fetch_cms_photos()
+    menu_photos = fetch_menu_photos()
 
     fresh_ids = set()
-    added, updated, reactivated = 0, 0, 0
+    added, updated, reactivated, photos_filled = 0, 0, 0, 0
     for f in fresh:
         fresh_ids.add(f["id"])
+        menu_photo = menu_photos.get(f["id"])
         cur = by_id.get(f["id"])
         if cur:
             if cur["name"] != f["name"] or cur["price"] != f["price"] or cur["group"] != f["group"]:
@@ -165,20 +169,26 @@ def main():
             if cur.get("active") is False:
                 cur["active"] = True
                 reactivated += 1
+            # Mijozlar menyusida surat paydo bo'lsa, bu yerga ham tushadi (ID bo'yicha
+            # ANIQ moslik). Admin panelda qo'lda qo'yilgan/tasdiqlangan surat
+            # (photoManual) hech qachon tegilmaydi. Eski, NOM bo'yicha taxminan
+            # topilgan surat esa aniq moslik bilan almashtiriladi — shunday qilib
+            # ilgari noto'g'ri biriktirilgan suratlar o'z-o'zidan to'g'rilanadi.
+            if menu_photo and not cur.get("photoManual") and cur.get("photo") != menu_photo:
+                cur["photo"] = menu_photo
+                cur["suggestedPhoto"] = None
+                cur["photoStatus"] = "confirmed"
+                photos_filled += 1
         else:
-            photo, video_photo_status = None, "missing"
-            suggested = None
-            if cms_photos:
-                url, score = match_photo(f["name"], cms_photos)
-                if url and score >= CONFIRM_THRESHOLD:
-                    photo, video_photo_status = url, "confirmed"
-                elif url:
-                    suggested, video_photo_status = url, "suggested"
+            photo = menu_photo
             by_id[f["id"]] = {
                 "id": f["id"], "num": f.get("num"), "name": f["name"], "price": f["price"], "group": f["group"],
-                "photo": photo, "suggestedPhoto": suggested, "photoStatus": video_photo_status,
+                "photo": photo, "suggestedPhoto": None,
+                "photoStatus": "confirmed" if photo else "missing",
                 "ingredients": [], "video": None, "active": True,
             }
+            if photo:
+                photos_filled += 1
             added += 1
 
     removed = 0
@@ -215,8 +225,10 @@ def main():
 
     merged = list(by_id.values())
     DATA_FILE.write_text(json.dumps(merged, ensure_ascii=False, indent=1), encoding="utf-8")
+    with_photo = sum(1 for d in merged if d.get("photo"))
     print(f"OK: {len(merged)} taom (+{added} yangi, {updated} yangilandi, "
           f"{removed} endi iikoda yo'q -> yashirildi, {reactivated} qayta faollashdi); "
+          f"surat: +{photos_filled} to'ldirildi, jami {with_photo} ta; "
           f"tex karta: {recipes_applied} qo'llandi, {recipes_manual_kept} qo'lda tahrirlangan (tegilmadi), {recipes_missing} ta taomda tex karta yo'q")
 
     subprocess.run([sys.executable, str(Path(__file__).with_name("generate.py"))], check=True)

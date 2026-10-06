@@ -4,7 +4,7 @@
   "name": "Ковурилган гушт 1 кг",
   "price": 260000,
   "group": "2-таом",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/070b212577484bf8.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/070b212577484bf8.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -95,9 +95,9 @@
   "name": "Мол гушт вагурий 1 кг",
   "price": 400000,
   "group": "2-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/40c2b7a9314547c0a9b1eae157758d41.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Вириска стейк п\\ф",
@@ -371,7 +371,7 @@
   "name": "Сетка балик 1кг",
   "price": 140000,
   "group": "Баликлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/d5343a988b9f0291.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/d5343a988b9f0291.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -420,7 +420,7 @@
   "name": "Айц  Вафли 1 порц",
   "price": 48000,
   "group": "Бариста дисерт",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/6637c35e60d4a8e0.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/6637c35e60d4a8e0.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -585,9 +585,9 @@
   "name": "Сет (Ушок баракли)",
   "price": 48000,
   "group": "Гарден Сет",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/93beeb42208534f6.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [],
   "video": null,
   "active": true,
@@ -598,9 +598,9 @@
   "name": "Сет (Лагмонли)",
   "price": 48000,
   "group": "Гарден Сет",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/5ca1923d7eef1bd1.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [],
   "video": null,
   "active": true,
@@ -611,9 +611,9 @@
   "name": "Махито боничный (0.45) 1шт",
   "price": 15000,
   "group": "Напитка",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/c6ae296d092868af.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Мохито 0,45",
@@ -651,9 +651,9 @@
   "name": "Мастава (Ташкентский) 1 порц",
   "price": 30000,
   "group": "1-таом",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/a684f25afcda31c1.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/a684f25afcda31c1.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Мастава ташкентский Гарден п\\ф",
@@ -753,9 +753,9 @@
   "name": "Пепси (1,5л) 1шт",
   "price": 18000,
   "group": "Напитка",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/0fbcfd9a52dbf32f.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/0fbcfd9a52dbf32f.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Пепси 1,5л",
@@ -842,9 +842,9 @@
   "name": "Рафаеллобизели перожний",
   "price": 40000,
   "group": "Гарден Перожний",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/dbdf2d7c2ea21130.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Рафаэлло Бизели",
@@ -862,9 +862,9 @@
   "name": "Эстерхази перожний",
   "price": 35000,
   "group": "Гарден Перожний",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/3a3f42a818464ae0.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/14baeb74bd390513.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Эстерхази",
@@ -882,7 +882,7 @@
   "name": "Осма шорва 1 порц",
   "price": 40000,
   "group": "1-таом",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/b76467058d571b54.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/7127996115eb9ef4.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -965,9 +965,9 @@
   "name": "Пепси (0,5л) 1шт",
   "price": 9000,
   "group": "Напитка",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/0fbcfd9a52dbf32f.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/b9b1c564086f0e90.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Пепси 0,5л",
@@ -1034,9 +1034,9 @@
   "name": "Уноши 1 порц",
   "price": 20000,
   "group": "1-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/32f3bec5d3fafc6b.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Осма шорва п/ф",
@@ -1157,7 +1157,7 @@
   "name": "Шорва барак 1 порц",
   "price": 35000,
   "group": "1-таом",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/66b71ec1c4054548.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/66b71ec1c4054548.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -1244,7 +1244,7 @@
   "name": "Осма шорва 0,5 порц",
   "price": 28000,
   "group": "1-таом",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/b76467058d571b54.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/b76467058d571b54.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -1327,7 +1327,7 @@
   "name": "Тифтел шорва 1 порц",
   "price": 37000,
   "group": "1-таом",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/74326721b03d4525.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/74326721b03d4525.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -1423,7 +1423,7 @@
   "name": "Жигарлар ассортий",
   "price": 550000,
   "group": "Ассорти блюда",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/9ac18d9737b87877.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/0ca7cd73c4022049.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -1737,7 +1737,7 @@
   "name": "Миллий микс ассорти.",
   "price": 470000,
   "group": "Ассорти блюда",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/91c3ed580bc20c95.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/91c3ed580bc20c95.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -1970,9 +1970,9 @@
   "name": "Микс (олма сабзи) сок 1 литр",
   "price": 60000,
   "group": "Табий шарбат",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/6be1808788518452.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Олма сок учун",
@@ -2215,7 +2215,7 @@
   "name": "Анор сомса 1 шт",
   "price": 13000,
   "group": "Сомса",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/410ac56550bc83ba.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/410ac56550bc83ba.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -2330,7 +2330,7 @@
   "name": "Спрайт (1,5л) 1шт",
   "price": 18000,
   "group": "Напитка",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/277eab8528bf1b48.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/c9036e6cd0c86c03.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -2370,7 +2370,7 @@
   "name": "Спрайт (1л) 1шт",
   "price": 14000,
   "group": "Напитка",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/277eab8528bf1b48.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/277eab8528bf1b48.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -2410,9 +2410,9 @@
   "name": "Сув (1,5л) 1шт",
   "price": 7000,
   "group": "Напитка",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/fc13083826463b02.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Сув 1,5л",
@@ -2450,9 +2450,9 @@
   "name": "Фанта (0,5л) 1шт",
   "price": 10000,
   "group": "Напитка",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/2e12b112d9ab1530.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/8437e89b8c592af0.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Фанта 0,5л",
@@ -2470,9 +2470,9 @@
   "name": "Фанта (1,5л) 1шт",
   "price": 20000,
   "group": "Напитка",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/2e12b112d9ab1530.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/2e12b112d9ab1530.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Фанта 1,5л",
@@ -2510,7 +2510,7 @@
   "name": "Флеш (0.45) 1шт",
   "price": 13000,
   "group": "Напитка",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/b39f9c6e03160132.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/b39f9c6e03160132.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -2530,7 +2530,7 @@
   "name": "Чорток (0,5л) 1шт",
   "price": 16000,
   "group": "Напитка",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/7ab8b3877062474d.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/7ab8b3877062474d.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -2610,7 +2610,7 @@
   "name": "Фалгада балик 1кг",
   "price": 150000,
   "group": "Баликлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/0e9321acf84dcd30.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/0e9321acf84dcd30.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -3339,9 +3339,9 @@
   "name": "Нон ассорти 1 порц",
   "price": 25000,
   "group": "Нон чай",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/f8dcd2403ac7ba28.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Олимп кулча п/ф",
@@ -3452,7 +3452,7 @@
   "name": "Лимон чой кора",
   "price": 17000,
   "group": "Нон чай",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/84893fa05ff54ce4.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/84893fa05ff54ce4.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -3480,9 +3480,9 @@
   "name": "Сет (Мене менли)",
   "price": 48000,
   "group": "Гарден Сет",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/961198d8689f45f59f85b5248b6d9b0e.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [],
   "video": null,
   "active": true,
@@ -3493,7 +3493,7 @@
   "name": "Кук барак 1 порц",
   "price": 30000,
   "group": "Барак",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/878d3233aa162a0d.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/878d3233aa162a0d.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -3559,7 +3559,7 @@
   "name": "Картошка барак 1 порц",
   "price": 25000,
   "group": "Барак",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/c586601479967972.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/c586601479967972.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -3629,9 +3629,9 @@
   "name": "Сет (Чечевичный)",
   "price": 48000,
   "group": "Гарден Сет",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/511cf2d16a469ff3.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [],
   "video": null,
   "active": true,
@@ -3918,7 +3918,7 @@
   "name": "Чурак 1 шт",
   "price": 12000,
   "group": "Нон чай",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/4bd205e1d314b886.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/4bd205e1d314b886.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -3938,7 +3938,7 @@
   "name": "Йогли патир 1 шт",
   "price": 15000,
   "group": "Нон чай",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/9da5e3e98bd13f84.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/9da5e3e98bd13f84.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -3958,7 +3958,7 @@
   "name": "Йогли патир 0,5 шт",
   "price": 8000,
   "group": "Нон чай",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/9da5e3e98bd13f84.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/9da5e3e98bd13f84.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -3998,7 +3998,7 @@
   "name": "Чурак 0,5 шт",
   "price": 6000,
   "group": "Нон чай",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/4bd205e1d314b886.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/4bd205e1d314b886.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -4446,7 +4446,7 @@
   "name": "Ананас салат 1 порц",
   "price": 40000,
   "group": "Маянез салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/ade979194fee4bcf.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/ade979194fee4bcf.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -4945,7 +4945,7 @@
   "name": "Адреналин (0.45) 1шт",
   "price": 19000,
   "group": "Напитка",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/f55809b0956c4573.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/f55809b0956c4573.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -5078,7 +5078,7 @@
   "name": "Вико (1л) 1шт",
   "price": 23000,
   "group": "Напитка",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/31b0bc956d4a4757.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/31b0bc956d4a4757.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -5118,9 +5118,9 @@
   "name": "Кола (0,5л) 1шт",
   "price": 10000,
   "group": "Напитка",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/9e64bfe846f5dbea.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/9750e3ec2a80f858.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Кола 0,5",
@@ -5158,9 +5158,9 @@
   "name": "Кола (1,5л) 1шт",
   "price": 20000,
   "group": "Напитка",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/9e64bfe846f5dbea.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/9e64bfe846f5dbea.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Кола 1,5 л",
@@ -5178,7 +5178,7 @@
   "name": "Бакложан рулет салат 1 порц",
   "price": 45000,
   "group": "Маянез салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/98195ad56e3135e2.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/98195ad56e3135e2.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -5287,7 +5287,7 @@
   "name": "Королевски салат 1 порц",
   "price": 45000,
   "group": "Маянез салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/20b5eeb41a265d53.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/20b5eeb41a265d53.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -5430,7 +5430,7 @@
   "name": "Лавашли рулет салат 1 порц",
   "price": 35000,
   "group": "Маянез салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/dffc826305074702.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/dffc826305074702.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -5935,9 +5935,9 @@
   "name": "(1 КГ) Вагурий",
   "price": 400000,
   "group": "2-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/9626700263822d9f.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Вагури п/ф",
@@ -6042,9 +6042,9 @@
   "name": "(0,5 КГ) Вагурий",
   "price": 195000,
   "group": "2-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/9626700263822d9f.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Вагури п/ф",
@@ -6220,7 +6220,7 @@
   "name": "Ковурма лагмон",
   "price": 40000,
   "group": "2-таом",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/d013fa9786a403eb.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/d013fa9786a403eb.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -6452,9 +6452,9 @@
   "name": "Гушт сай",
   "price": 130000,
   "group": "2-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/d1df863366688c55.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Болгарский (Тозаланган) п\\ф",
@@ -6590,9 +6590,9 @@
   "name": "Гарден Хон 1 порц",
   "price": 300000,
   "group": "2-таом",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/1472c224d833ee40.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/f2f6557e2cd3962a.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Айдахо кг п/ф",
@@ -6746,9 +6746,9 @@
   "name": "Ассорти барак",
   "price": 100000,
   "group": "Барак",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/dc515be0e33cc075.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/0bc60ec251801b4e.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Тухум барак начинка (Гарден) П/ф",
@@ -6976,9 +6976,9 @@
   "name": "Каймока дил 1 кг",
   "price": 220000,
   "group": "2-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/bccebc734777406d.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "КАЙМОК кг",
@@ -7054,7 +7054,7 @@
   "name": "Кади барак 1 порц",
   "price": 25000,
   "group": "Барак",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/dc515be0e33cc075.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/dc515be0e33cc075.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -7153,7 +7153,7 @@
   "name": "Кутир барак 1 порц",
   "price": 38000,
   "group": "Барак",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/86fa5538c06c561b.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/86fa5538c06c561b.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -7219,9 +7219,9 @@
   "name": "Катта ассорти барак",
   "price": 135000,
   "group": "Барак",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/0bc60ec251801b4e.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/637bfe5249ea0ec2.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Тухум барак начинка (Гарден) П/ф",
@@ -7556,7 +7556,7 @@
   "name": "Ушок барак 1 порц",
   "price": 30000,
   "group": "Барак",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/b5250a3c231a30bd.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/b5250a3c231a30bd.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -7646,7 +7646,7 @@
   "name": "Бардак чой (чашка)",
   "price": 4000,
   "group": "Фруктовый чай",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/17c1d2f079dcc152.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/17c1d2f079dcc152.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -7702,9 +7702,9 @@
   "name": "Мевали чай (оддий)",
   "price": 25000,
   "group": "Фруктовый чай",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/29355808bf919a6f.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/29355808bf919a6f.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Апелсин шт",
@@ -7771,9 +7771,9 @@
   "name": "Манголи чизкейк 1 порц",
   "price": 60000,
   "group": "Бариста дисерт",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/2886f3c23e8da837.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Сан себастьян (шт)",
@@ -7816,9 +7816,9 @@
   "name": "Манти (гуштли)1 порц",
   "price": 48000,
   "group": "Барак",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/0c85155d8118c3e3.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/4965a4e12e4ace01.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Гушт Манти  п/ф",
@@ -7923,9 +7923,9 @@
   "name": "Айрон.(газли) 1л",
   "price": 24000,
   "group": "Айронлар",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/c97d6f9182e20573.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Айрон чакида п\\ф",
@@ -8037,9 +8037,9 @@
   "name": "Банановый вафли 1 порц",
   "price": 40000,
   "group": "Бариста дисерт",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/6637c35e60d4a8e0.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/9f2a97566a1177e7.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Гарден вафли смес п\\ф",
@@ -8124,9 +8124,9 @@
   "name": "Микс вафли 1 порц",
   "price": 75000,
   "group": "Бариста дисерт",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/6637c35e60d4a8e0.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/04caedf82a51e550.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Гарден вафли смес п\\ф",
@@ -8202,7 +8202,7 @@
   "name": "Шоколадный чизкейк 1 порц",
   "price": 50000,
   "group": "Бариста дисерт",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/18a6118d3ebccf5b.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/5dbe0f69c6a288f9.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -8243,9 +8243,9 @@
   "name": "Фисташкали чизкейк 1 порц",
   "price": 55000,
   "group": "Бариста дисерт",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/d13b8aa42e726058.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Сан себастьян (шт)",
@@ -8280,9 +8280,9 @@
   "name": "Корма гошт 1 кг",
   "price": 330000,
   "group": "2-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/87a85398f3d5b21d.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Болгарский (Тозаланган) п\\ф",
@@ -8429,7 +8429,7 @@
   "name": "Ковурилган гушт каймокли 1 кг",
   "price": 290000,
   "group": "2-таом",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/070b212577484bf8.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/e5ff461fba1d240c.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -8559,9 +8559,9 @@
   "name": "Сет (Копширмали)",
   "price": 48000,
   "group": "Гарден Сет",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/8183925bef50082b.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [],
   "video": null,
   "active": true,
@@ -8672,7 +8672,7 @@
   "name": "Кади манти 1 порц",
   "price": 25000,
   "group": "Барак",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/6b17e6b3e357f86b.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/6b17e6b3e357f86b.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -8803,7 +8803,7 @@
   "name": "Пепси боничный (0.45) 1шт",
   "price": 13000,
   "group": "Напитка",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/f62d432fd2a50964.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/f62d432fd2a50964.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -8823,9 +8823,9 @@
   "name": "Сок (1л) 1шт",
   "price": 18000,
   "group": "Напитка",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/50c20d6ce10f06f2.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Сок 1 л",
@@ -8843,7 +8843,7 @@
   "name": "Спрайт (0,5л) 1шт",
   "price": 10000,
   "group": "Напитка",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/277eab8528bf1b48.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/749175c0731e3f61.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -8908,9 +8908,9 @@
   "name": "Куза тушёнка 1 порц",
   "price": 240000,
   "group": "2-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/f4faad5aae0085b7.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Куза Тушонка п\\ф",
@@ -9310,9 +9310,9 @@
   "name": "Борщ (украинский) 0,5 порц",
   "price": 27000,
   "group": "1-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/4c2b5a95918a2a39.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "КАЙМОК кг",
@@ -9384,9 +9384,9 @@
   "name": "Борщ (украинский) 1 порц",
   "price": 35000,
   "group": "1-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/8c6e49e691f8ebfd.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "КАЙМОК кг",
@@ -9503,7 +9503,7 @@
   "name": "Олимп Товук 1 порц",
   "price": 90000,
   "group": "2-таом",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/ec8022ac98062448.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/ec8022ac98062448.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -9573,7 +9573,7 @@
   "name": "Ковун 1 порц",
   "price": 20000,
   "group": "Фрукты",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/8831104b8dd3638a.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/8831104b8dd3638a.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -9896,9 +9896,9 @@
   "name": "Сарёғга дил 1 кг",
   "price": 230000,
   "group": "2-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/2b355836a71ad7a1.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Дил пишган п/ф",
@@ -9974,9 +9974,9 @@
   "name": "Кавоб ассорти кичик.",
   "price": 480000,
   "group": "Ассорти блюда",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/1c2c8419ab08e903.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Кенза (переправа)",
@@ -10162,7 +10162,7 @@
   "name": "Лула кабоб 1 порц",
   "price": 45000,
   "group": "2-таом",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/9648bba830924332.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/9648bba830924332.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -10689,9 +10689,9 @@
   "name": "Урамали Долма 1 порц",
   "price": 43000,
   "group": "2-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/6c4e2755fa94c05f.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Урама долма п/ф",
@@ -10947,7 +10947,7 @@
   "name": "Айс американо кофе",
   "price": 25000,
   "group": "Кофе",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/c61c09a07cf07127.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/c61c09a07cf07127.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -10971,7 +10971,7 @@
   "name": "Айс капучино кофе",
   "price": 25000,
   "group": "Кофе",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/2c23c6b824c89f60.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/2c23c6b824c89f60.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -10999,9 +10999,9 @@
   "name": "Айс латте кофе",
   "price": 25000,
   "group": "Кофе",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/f976f709e0923412.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Кофе лавазза кг(зерновой)",
@@ -11027,7 +11027,7 @@
   "name": "Американо кофе",
   "price": 15000,
   "group": "Кофе",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/06d5b592110e7bf9.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/06d5b592110e7bf9.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -11051,9 +11051,9 @@
   "name": "Капучино кофе",
   "price": 25000,
   "group": "Кофе",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/2c23c6b824c89f60.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/88640adcd352a221.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Кофе лавазза кг(зерновой)",
@@ -11103,7 +11103,7 @@
   "name": "Гушт ассорти люкс.",
   "price": 600000,
   "group": "Ассорти блюда",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/fa1e2798be6cc690.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/fa1e2798be6cc690.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -11450,9 +11450,9 @@
   "name": "Special (Карейка) 1 порц",
   "price": 320000,
   "group": "Ассорти блюда",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/e0ccc0e9efd2b205.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Стейк карейка кг п/ф",
@@ -11625,9 +11625,9 @@
   "name": "Гарден Special  1 порц",
   "price": 300000,
   "group": "Ассорти блюда",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/7c310eb89abf9a17.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/7c310eb89abf9a17.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Контр (спешил) п\\ф",
@@ -11815,7 +11815,7 @@
   "name": "Гушт ассорти катта.",
   "price": 415000,
   "group": "Ассорти блюда",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/1da2dbdbd5be96e5.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/1da2dbdbd5be96e5.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -11981,7 +11981,7 @@
   "name": "Раф-кофе кофе",
   "price": 40000,
   "group": "Кофе",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/db705f68e8367faf.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/db705f68e8367faf.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -12013,9 +12013,9 @@
   "name": "Эспрессо кофе",
   "price": 15000,
   "group": "Кофе",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/e1ce91c087688c20.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Кофе лавазза кг(зерновой)",
@@ -12037,7 +12037,7 @@
   "name": "Олимп бешбармок.",
   "price": 310000,
   "group": "Ассорти блюда",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/26b7f9c13c3625be.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/40fa7305b23ce2a8.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -12349,7 +12349,7 @@
   "name": "Олимп Бешбармок 0,5 порц",
   "price": 175000,
   "group": "Ассорти блюда",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/26b7f9c13c3625be.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/26b7f9c13c3625be.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -12608,9 +12608,9 @@
   "name": "Янги экслузив ассорти.",
   "price": 445000,
   "group": "Ассорти блюда",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/12118b58ce1009a1.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Урама долма п/ф",
@@ -13159,7 +13159,7 @@
   "name": "Соусли Баклажан Салат",
   "price": 35000,
   "group": "Свежый салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/115252ae1e70ebbd.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/115252ae1e70ebbd.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -13271,7 +13271,7 @@
   "name": "Тарвуз Ковун 1 порц",
   "price": 30000,
   "group": "Фрукты",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/b0a4a5f8a0adbad7.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/e9d2519c84a03319.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -13332,9 +13332,9 @@
   "name": "Аччик-чучук салат",
   "price": 18000,
   "group": "Свежый салатлар",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/325829036113d19c.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Свежи Аччи бурч",
@@ -13432,9 +13432,9 @@
   "name": "Овошной",
   "price": 58000,
   "group": "Свежый салатлар",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/7f6a7ebc4685fb85.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Памидор отходсиз (Салат) п/ф",
@@ -13597,9 +13597,9 @@
   "name": "Окрошка.",
   "price": 20000,
   "group": "Свежый салатлар",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/ceae2d7b93c42f70.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Бодринг (Тозаланган) п\\ф",
@@ -13673,7 +13673,7 @@
   "name": "Витаминка салат",
   "price": 25000,
   "group": "Свежый салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/02eccd172b998e9e.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/02eccd172b998e9e.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -13820,9 +13820,9 @@
   "name": "Йанги сырный ассорти",
   "price": 70000,
   "group": "Свежый салатлар",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/bc0530065fcd69d3.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Сыр янтар",
@@ -13889,7 +13889,7 @@
   "name": "Кади манти 1 шт",
   "price": 5000,
   "group": "Барак",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/6b17e6b3e357f86b.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/6b17e6b3e357f86b.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -13930,7 +13930,7 @@
   "name": "Греческий салат",
   "price": 35000,
   "group": "Свежый салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/0d684ccfc88e2a69.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/0d684ccfc88e2a69.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -14128,7 +14128,7 @@
   "name": "Винегрет салат",
   "price": 25000,
   "group": "Свежый салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/ee2473c91e18682a.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/ee2473c91e18682a.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -14383,7 +14383,7 @@
   "name": "Окрошка (гўштли).",
   "price": 25000,
   "group": "Свежый салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/0c85155d8118c3e3.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/0c85155d8118c3e3.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -14614,7 +14614,7 @@
   "name": "Соленый Помидор 1 шт",
   "price": 15000,
   "group": "Салёоный салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/8b253bae3a657fbf.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/8b253bae3a657fbf.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -14797,7 +14797,7 @@
   "name": "Соленый бодринг 200 гр",
   "price": 12000,
   "group": "Салёоный салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/c38702335fff07c9.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/c38702335fff07c9.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -14903,7 +14903,7 @@
   "name": "Соленый ассорти",
   "price": 35000,
   "group": "Салёоный салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/a14fdd6395436f82.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/a14fdd6395436f82.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -15113,7 +15113,7 @@
   "name": "Баклажон салат 1 порц",
   "price": 35000,
   "group": "Сояли салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/ba479f560dfa5d96.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/ba479f560dfa5d96.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -15376,7 +15376,7 @@
   "name": "Картошка фри 1 порц",
   "price": 20000,
   "group": "Дисерт кухня",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/2d8f546d7ce2dc38.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/2d8f546d7ce2dc38.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -15445,7 +15445,7 @@
   "name": "Гумма ковурилган 1 шт",
   "price": 15000,
   "group": "Сомса",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/35d9f57de4afcea9.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/35d9f57de4afcea9.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -15535,7 +15535,7 @@
   "name": "Кади олот сомса 1 шт",
   "price": 5000,
   "group": "Сомса",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/79dfee1fa31c53fe.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/79dfee1fa31c53fe.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -15613,7 +15613,7 @@
   "name": "Гулшан салат 1 порц",
   "price": 52000,
   "group": "Сояли салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/e4d3911bfc294c37.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/e4d3911bfc294c37.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -15811,7 +15811,7 @@
   "name": "Султон салат 1 порц",
   "price": 48000,
   "group": "Сояли салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/24aa84fab3b13370.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/24aa84fab3b13370.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -15959,7 +15959,7 @@
   "name": "Тбилиси салат 1 порц",
   "price": 55000,
   "group": "Сояли салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/857c9ccfd2a900f0.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/857c9ccfd2a900f0.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -16072,7 +16072,7 @@
   "name": "Грибной салат 1 порц",
   "price": 43000,
   "group": "Сояли салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/7a5e7b84926a7f8b.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/7a5e7b84926a7f8b.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -16190,7 +16190,7 @@
   "name": "Хрустящие баклажан салат 1 порц",
   "price": 50000,
   "group": "Сояли салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/4dd931b19218e0ab.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/4dd931b19218e0ab.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -16321,7 +16321,7 @@
   "name": "Бедана ктта шорва 1 порц",
   "price": 55000,
   "group": "1-таом",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/86fe6200830af5d4.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/86fe6200830af5d4.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -16440,7 +16440,7 @@
   "name": "Куза шорва (мол гушт) 1 порц",
   "price": 51000,
   "group": "1-таом",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/e5e1f879b393d041.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/e5e1f879b393d041.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -16638,7 +16638,7 @@
   "name": "Мясной козили 1 порц",
   "price": 120000,
   "group": "Мясной.",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/2f953ac569f11b4f.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/2f953ac569f11b4f.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -16979,7 +16979,7 @@
   "name": "Гиждувон шашлик.",
   "price": 20000,
   "group": "Шашлык на мангале",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/29c126c453203264.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/29c126c453203264.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -17054,9 +17054,9 @@
   "name": "Ижжон шашлик.",
   "price": 18000,
   "group": "Шашлык на мангале",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/ead8819fd9f64a24.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Ижжон шашлик (шт)  П/ф",
@@ -17096,9 +17096,9 @@
   "name": "Крылышки шашлик.",
   "price": 25000,
   "group": "Шашлык на мангале",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/ddcc241d77671e4e.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Крылишки шашлик (шт)  п/ф",
@@ -17138,7 +17138,7 @@
   "name": "Думба шашлик.",
   "price": 18000,
   "group": "Шашлык на мангале",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/ed84e7d707336e8c.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/ed84e7d707336e8c.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -17188,9 +17188,9 @@
   "name": "Мастава (Ташкентский) 0,5 порц",
   "price": 25000,
   "group": "1-таом",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/a684f25afcda31c1.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/ae70dda2d350078b.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Мастава ташкентский Гарден п\\ф",
@@ -17290,7 +17290,7 @@
   "name": "Копширма гумма  1 шт",
   "price": 15000,
   "group": "Сомса",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/f8be980f7c82f29a.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/f8be980f7c82f29a.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -17499,7 +17499,7 @@
   "name": "Кук Олат сомса  1 шт",
   "price": 8000,
   "group": "Сомса",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/1573a09c444f083f.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/1573a09c444f083f.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -17597,9 +17597,9 @@
   "name": "Жог ассорти.",
   "price": 600000,
   "group": "Ассорти на мангале",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/a853356c6b088b56.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Стейк карейка кг п/ф",
@@ -17933,7 +17933,7 @@
   "name": "Мангал ассорти",
   "price": 550000,
   "group": "Ассорти на мангале",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/0a5c8a485ee01f78.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/0a5c8a485ee01f78.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -18692,9 +18692,9 @@
   "name": "Мангал мих.",
   "price": 500000,
   "group": "Ассорти на мангале",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/0a5c8a485ee01f78.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/fcf123352a574d2cad1764c9e564ac7b.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Овашной шашлик",
@@ -18957,7 +18957,7 @@
   "name": "Стейк ассорти 0.5 порц",
   "price": 240000,
   "group": "Ассорти на мангале",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/4ce3c9a8fcd9ec43.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/4ce3c9a8fcd9ec43.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -19192,7 +19192,7 @@
   "name": "Стейк ассорти 1 порц",
   "price": 370000,
   "group": "Ассорти на мангале",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/4ce3c9a8fcd9ec43.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/4ce3c9a8fcd9ec43.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -19427,7 +19427,7 @@
   "name": "Шашлик ассорти.",
   "price": 515000,
   "group": "Ассорти на мангале",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/7cb43253573ed5cc.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/7cb43253573ed5cc.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -19707,7 +19707,7 @@
   "name": "Шеф ассорти",
   "price": 517000,
   "group": "Ассорти на мангале",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/959f80875c1f5f4d.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/959f80875c1f5f4d.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -20148,7 +20148,7 @@
   "name": "Олот сомса 1 шт",
   "price": 11000,
   "group": "Сомса",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/a0fcf8ca2f9fa5a0.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/a0fcf8ca2f9fa5a0.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -20369,7 +20369,7 @@
   "name": "Норин 1 порц",
   "price": 50000,
   "group": "Маянез салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/95e33de976fcbe72.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/95e33de976fcbe72.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -20481,7 +20481,7 @@
   "name": "Олимп копширма 1 шт",
   "price": 16000,
   "group": "Сомса",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/541af00a98e59f82.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/541af00a98e59f82.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -20595,7 +20595,7 @@
   "name": "Хива ижжон 1 порц",
   "price": 45000,
   "group": "Дисерт кухня",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/112a9433e35a4aae.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/112a9433e35a4aae.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -20619,7 +20619,7 @@
   "name": "Олимп салат 1 порц",
   "price": 63000,
   "group": "Маянез салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/d246a2ad4aab2124.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/d246a2ad4aab2124.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -20844,7 +20844,7 @@
   "name": "Мимоза салат 1 порц",
   "price": 35000,
   "group": "Маянез салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/63eb5ce804deb2fd.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/63eb5ce804deb2fd.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -21007,7 +21007,7 @@
   "name": "Оливье (гуштли) 1 порц",
   "price": 40000,
   "group": "Маянез салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/56a6804c9e615527.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/56a6804c9e615527.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -21212,7 +21212,7 @@
   "name": "Кусковой мол.",
   "price": 33000,
   "group": "Шашлык на мангале",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/a8362854596a38dc.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/b0fff193838c85ca.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -21366,7 +21366,7 @@
   "name": "Кусковой қуй.",
   "price": 33000,
   "group": "Шашлык на мангале",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/a8362854596a38dc.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/a8362854596a38dc.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -21412,9 +21412,9 @@
   "name": "Напалеон шашлик.",
   "price": 30000,
   "group": "Шашлык на мангале",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/c89b4e0662679af0.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Напалеон  шашлик (шт) п/ф",
@@ -21454,7 +21454,7 @@
   "name": "Патир шашлик.",
   "price": 17000,
   "group": "Шашлык на мангале",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/60618f5c849bfb73.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/60618f5c849bfb73.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -21508,7 +21508,7 @@
   "name": "Сомса 1 шт",
   "price": 17000,
   "group": "Сомса",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/cf80c9b22ce135c8.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/cf80c9b22ce135c8.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -21667,9 +21667,9 @@
   "name": "Французский салат 1 порц",
   "price": 43000,
   "group": "Маянез салатлар",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/b56bfea01806bd0d.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/6ef0650746c601a1.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Бодринг салёный п/ф",
@@ -21886,9 +21886,9 @@
   "name": "Оливье 1 порц",
   "price": 35000,
   "group": "Маянез салатлар",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/4524d80d6b4c3133.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Бодринг (Тозаланган) п\\ф",
@@ -22033,7 +22033,7 @@
   "name": "Цезарь салат 1 порц",
   "price": 45000,
   "group": "Маянез салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/2aa103b481d1e5c2.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/2aa103b481d1e5c2.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -22274,7 +22274,7 @@
   "name": "Шаркона салат 1 порц",
   "price": 45000,
   "group": "Маянез салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/e70e147ae58f16dc.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/e70e147ae58f16dc.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -22957,7 +22957,7 @@
   "name": "Кофте с айдахом 1 порц",
   "price": 90000,
   "group": "Стейк",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/cf312725a113704a.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/cf312725a113704a.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -23194,7 +23194,7 @@
   "name": "Гумма кофте 1 порц",
   "price": 50000,
   "group": "Стейк",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/671af2e2231bf36f.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/671af2e2231bf36f.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -23366,7 +23366,7 @@
   "name": "Сетка товуқ 1 порц",
   "price": 97000,
   "group": "Стейк",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/d67b1ff0b49ea8f3.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/d67b1ff0b49ea8f3.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -23861,9 +23861,9 @@
   "name": "Стейк мол гушт 1 кг",
   "price": 370000,
   "group": "Стейк",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/624079c81ca96664.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Соус  п\\ф",
@@ -24037,7 +24037,7 @@
   "name": "Мева ассорти катта.",
   "price": 230000,
   "group": "Фрукты",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/e5777543b2abef98.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/e5777543b2abef98.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -24585,7 +24585,7 @@
   "name": "Мрамир стейк 1 порц",
   "price": 200000,
   "group": "2-таом",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/10d6c488a8b15f13.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/10d6c488a8b15f13.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -24671,7 +24671,7 @@
   "name": "Овашной шашлик",
   "price": 20000,
   "group": "Шашлык на мангале",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/84ed93a0da166bb2.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/84ed93a0da166bb2.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -24763,7 +24763,7 @@
   "name": "Тухум барак 1 порц",
   "price": 35000,
   "group": "Барак",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/4d8f47e4a3e1d7c7.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/4d8f47e4a3e1d7c7.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -24866,7 +24866,7 @@
   "name": "Тарвуз сок 1 литр",
   "price": 20000,
   "group": "Табий шарбат",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/b0a4a5f8a0adbad7.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/b0a4a5f8a0adbad7.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -24886,7 +24886,7 @@
   "name": "Махито ассорти 3х",
   "price": 105000,
   "group": "Махито",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/d19224af122deda8.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/d19224af122deda8.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -25176,7 +25176,7 @@
   "name": "Олма сок (СТАКАН)",
   "price": 30000,
   "group": "Табий шарбат",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/fb14f138d3a55785.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/fb14f138d3a55785.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -25328,7 +25328,7 @@
   "name": "Улфатлар ассортий",
   "price": 420000,
   "group": "Ассорти блюда",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/9ac18d9737b87877.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/9ac18d9737b87877.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -25610,7 +25610,7 @@
   "name": "Тошкент суви (0,5л) 1шт",
   "price": 9000,
   "group": "Напитка",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/ca4707d729030ea5.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/ca4707d729030ea5.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -25796,7 +25796,7 @@
   "name": "Фамилий ассортий 4 персон",
   "price": 379000,
   "group": "Ассорти блюда",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/52e10e42a5e18a7d.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/52e10e42a5e18a7d.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -26354,9 +26354,9 @@
   "name": "Айс теа стакан",
   "price": 30000,
   "group": "Махито",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/dcc084ac2a80c8d8.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Мохито сироп",
@@ -26853,7 +26853,7 @@
   "name": "Кади манти 0.5 порц",
   "price": 15000,
   "group": "Барак",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/6b17e6b3e357f86b.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/6b17e6b3e357f86b.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -27004,9 +27004,9 @@
   "name": "Ежик перожний",
   "price": 50000,
   "group": "Гарден Перожний",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/18a6118d3ebccf5b.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Ежик перожни",
@@ -27073,9 +27073,9 @@
   "name": "Янги йул салати 1 порц",
   "price": 50000,
   "group": "Сояли салатлар",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/464d028c7c148509.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Коврилган гушт п\\ф",
@@ -27324,9 +27324,9 @@
   "name": "Местный Товук 1 порц",
   "price": 90000,
   "group": "2-таом",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/d67b1ff0b49ea8f3.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/a41768f07d2e2678.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Местний товук п/ф",
@@ -27451,9 +27451,9 @@
   "name": "Окорочка фаршированный 1 порц",
   "price": 55000,
   "group": "2-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/fa8b098ddef58b7e.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Айдахо кг п/ф",
@@ -27939,7 +27939,7 @@
   "name": "Японский салат 1 порц",
   "price": 49000,
   "group": "Сояли салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/b56bfea01806bd0d.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/b56bfea01806bd0d.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -28124,7 +28124,7 @@
   "name": "Свежий салат.",
   "price": 18000,
   "group": "Свежый салатлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/11d7b2236a0c77dd.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/11d7b2236a0c77dd.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -28854,7 +28854,7 @@
   "name": "Улитка перожний",
   "price": 45000,
   "group": "Гарден Перожний",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/c5b3c701880b6ca9.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/c5b3c701880b6ca9.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -28874,7 +28874,7 @@
   "name": "Фисташковий перожний",
   "price": 40000,
   "group": "Гарден Перожний",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/64cbd9b182a33332.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/64cbd9b182a33332.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -28963,9 +28963,9 @@
   "name": "Сет (Шивит ошили)",
   "price": 48000,
   "group": "Гарден Сет",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/e7ac1f1d0e3e7c03.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [],
   "video": null,
   "active": true,
@@ -28976,7 +28976,7 @@
   "name": "Мева ассорти",
   "price": 150000,
   "group": "Фрукты",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/4bcae1111d563bef.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/4bcae1111d563bef.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -29053,7 +29053,7 @@
   "name": "Ковурилган балик 1кг",
   "price": 125000,
   "group": "Баликлар",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/d3495f530b5f6edf.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/d3495f530b5f6edf.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -29172,9 +29172,9 @@
   "name": "Гарден burger",
   "price": 47000,
   "group": "Бургер",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/1472c224d833ee40.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Бургер булика 140гр  п\\ф",
@@ -29370,7 +29370,7 @@
   "name": "Сникерсы перожний",
   "price": 45000,
   "group": "Гарден Перожний",
-  "photo": "https://garden-dashboard.github.io/olimp-garden-menu/images/3a3f42a818464ae0.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/3a3f42a818464ae0.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -29551,9 +29551,9 @@
   "name": "Мени-мен 1 порц",
   "price": 35000,
   "group": "1-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/0b80953a4eb842cf80ddee5161c2d548.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Мене мен п/ф",

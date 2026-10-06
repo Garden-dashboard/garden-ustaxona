@@ -123,6 +123,8 @@ def save_dish(dish_id):
             found["photo"] = found["suggestedPhoto"]
             found["suggestedPhoto"] = None
             found["photoStatus"] = "confirmed"
+            # qo'lda tasdiqlangan — sinxron buni hech qachon almashtirmaydi
+            found["photoManual"] = True
     if "rejectPhoto" in patch and patch["rejectPhoto"]:
         found["suggestedPhoto"] = None
         found["photoStatus"] = "missing"
@@ -173,6 +175,8 @@ def upload_photo(dish_id):
             d["photo"] = f"uploads/{fname}"
             d["suggestedPhoto"] = None
             d["photoStatus"] = "confirmed"
+            # qo'lda yuklangan — sinxron buni hech qachon almashtirmaydi
+            d["photoManual"] = True
             save_dishes(dishes)
             return jsonify({"ok": True, "url": f"uploads/{fname}"})
     return jsonify({"ok": False, "error": "Taom topilmadi"}), 404
