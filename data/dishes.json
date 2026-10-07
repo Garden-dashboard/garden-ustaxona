@@ -1157,7 +1157,7 @@
   "name": "Шорва барак 1 порц",
   "price": 35000,
   "group": "1-таом",
-  "photo": "https://menu.olimpgarden.uz/images/66b71ec1c4054548.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/8c73f097677a45d99b29b2d2a9daf136.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -2215,7 +2215,7 @@
   "name": "Анор сомса 1 шт",
   "price": 13000,
   "group": "Сомса",
-  "photo": "https://menu.olimpgarden.uz/images/410ac56550bc83ba.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/b26cf0b8716443ce8592478f83ba1c72.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -3559,7 +3559,7 @@
   "name": "Картошка барак 1 порц",
   "price": 25000,
   "group": "Барак",
-  "photo": "https://menu.olimpgarden.uz/images/c586601479967972.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/8313f754dfe54623887595d0442ce12d.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -3784,9 +3784,9 @@
   "name": "Олимп кулча 1 шт",
   "price": 4000,
   "group": "Нон чай",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/ec8022ac98062448.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/bbb4d4ea1a744ab1ab7cbb97e37f4164.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Олимп кулча п/ф",
@@ -3938,7 +3938,7 @@
   "name": "Йогли патир 1 шт",
   "price": 15000,
   "group": "Нон чай",
-  "photo": "https://menu.olimpgarden.uz/images/9da5e3e98bd13f84.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/3280d5450d1f4f00a4546f4fd5b3f276.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -3958,7 +3958,7 @@
   "name": "Йогли патир 0,5 шт",
   "price": 8000,
   "group": "Нон чай",
-  "photo": "https://menu.olimpgarden.uz/images/9da5e3e98bd13f84.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/987352bb3b874e9c9a485a2f87a92889.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -3998,7 +3998,7 @@
   "name": "Чурак 0,5 шт",
   "price": 6000,
   "group": "Нон чай",
-  "photo": "https://menu.olimpgarden.uz/images/4bd205e1d314b886.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/65ff6d937943488681e1dd0c4be068a0.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -4196,9 +4196,9 @@
   "name": "Кизил патир 1 шт",
   "price": 13000,
   "group": "Нон чай",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/9da5e3e98bd13f84.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/e09166cd1d484e84bbfdfc2cd4dcb9e2.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Кизил патир (1шт)",
@@ -6042,7 +6042,7 @@
   "name": "(0,5 КГ) Вагурий",
   "price": 195000,
   "group": "2-таом",
-  "photo": "https://menu.olimpgarden.uz/images/9626700263822d9f.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/44a2cc7559194226a4ebe0dd13655dc2.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -9503,7 +9503,7 @@
   "name": "Олимп Товук 1 порц",
   "price": 90000,
   "group": "2-таом",
-  "photo": "https://menu.olimpgarden.uz/images/ec8022ac98062448.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/e766506c717c4276a8b0bfb3ee07abfd.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -15535,7 +15535,7 @@
   "name": "Кади олот сомса 1 шт",
   "price": 5000,
   "group": "Сомса",
-  "photo": "https://menu.olimpgarden.uz/images/79dfee1fa31c53fe.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/54dd6a0723734695b4a2ac8eb3c74b0d.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -16638,7 +16638,7 @@
   "name": "Мясной козили 1 порц",
   "price": 120000,
   "group": "Мясной.",
-  "photo": "https://menu.olimpgarden.uz/images/2f953ac569f11b4f.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/d994341ed7e44216bd7ae135754067b6.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -17290,7 +17290,7 @@
   "name": "Копширма гумма  1 шт",
   "price": 15000,
   "group": "Сомса",
-  "photo": "https://menu.olimpgarden.uz/images/f8be980f7c82f29a.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/e1dd3de8ee3d448a93de57b8f6806d0c.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -20148,7 +20148,7 @@
   "name": "Олот сомса 1 шт",
   "price": 11000,
   "group": "Сомса",
-  "photo": "https://menu.olimpgarden.uz/images/a0fcf8ca2f9fa5a0.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/eac3d4c5d8f34d21869c39b1872201c4.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -21508,7 +21508,7 @@
   "name": "Сомса 1 шт",
   "price": 17000,
   "group": "Сомса",
-  "photo": "https://menu.olimpgarden.uz/images/cf80c9b22ce135c8.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/645551506d05432dbbb0305525e52725.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -24323,9 +24323,9 @@
   "name": "Кора чурак 0,5 шт",
   "price": 8000,
   "group": "Нон чай",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/4bd205e1d314b886.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/26cdd767639e48d2ab88b84a21943466.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Кора чурак",
@@ -24436,9 +24436,9 @@
   "name": "Кора чурак 1 шт",
   "price": 13000,
   "group": "Нон чай",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/4bd205e1d314b886.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/878a2773e6614ea8abf8c7e3b3f6a63b.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Кора чурак",
@@ -27324,7 +27324,7 @@
   "name": "Местный Товук 1 порц",
   "price": 90000,
   "group": "2-таом",
-  "photo": "https://menu.olimpgarden.uz/images/a41768f07d2e2678.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/274073cb6cd74ea5ae9b9166de03e53f.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -29888,9 +29888,9 @@
   "name": "Паста Алфредоо",
   "price": 50000,
   "group": "2-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/c8864c63ce5a45d5bc45440899fd1a93.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Товук филе",
@@ -30171,9 +30171,9 @@
   "name": "Cырный ассорти",
   "price": 195000,
   "group": "Свежый салатлар",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/90bee065ace34a28b5da4ee1907a449e.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [],
   "video": null,
   "active": true
