@@ -30255,5 +30255,18 @@
   "ingredients": [],
   "video": null,
   "active": true
+ },
+ {
+  "id": "14d37953-b68c-45b4-a47d-9cc47f1d78c4",
+  "num": "24266",
+  "name": "нев",
+  "price": 210000,
+  "group": "Гарден Сет",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
  }
 ]
