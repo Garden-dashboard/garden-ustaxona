@@ -29625,9 +29625,9 @@
   "name": "Грейфрут салат",
   "price": 58000,
   "group": "Сояли салатлар",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/ee2473c91e18682a.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/0c986465be884162bccefc71f5f9c288.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Руккола (Тозаланган) п\\ф",
