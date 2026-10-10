@@ -30268,5 +30268,18 @@
   "ingredients": [],
   "video": null,
   "active": true
+ },
+ {
+  "id": "9211952e-9802-4a3b-99b5-d8790a80268d",
+  "num": "24268",
+  "name": "Маракуя 1 шт",
+  "price": 20000,
+  "group": "Фрукты",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
  }
 ]
