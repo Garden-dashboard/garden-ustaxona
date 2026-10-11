@@ -22492,7 +22492,7 @@
    }
   ],
   "video": null,
-  "active": false,
+  "active": true,
   "num": "23515",
   "recipeYield": "1 dona",
   "technology": ""
@@ -30259,8 +30259,8 @@
  {
   "id": "14d37953-b68c-45b4-a47d-9cc47f1d78c4",
   "num": "24266",
-  "name": "нев",
-  "price": 210000,
+  "name": "Сет (Стипендия 4 персон)",
+  "price": 200000,
   "group": "Гарден Сет",
   "photo": null,
   "suggestedPhoto": null,
@@ -30275,6 +30275,19 @@
   "name": "Маракуя 1 шт",
   "price": 20000,
   "group": "Фрукты",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
+ },
+ {
+  "id": "502c5cfc-6fb3-4f9a-86ff-4ca778444cc7",
+  "num": "24269",
+  "name": "Мраморный сыр 1 кг",
+  "price": 150000,
+  "group": "Мясной.",
   "photo": null,
   "suggestedPhoto": null,
   "photoStatus": "missing",
