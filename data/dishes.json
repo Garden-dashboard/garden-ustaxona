@@ -196,7 +196,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "24035",
   "recipeYield": "1 kg",
   "technology": ""
@@ -2580,7 +2580,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23758",
   "recipeYield": "1 dona",
   "technology": ""
@@ -16588,7 +16588,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "23527",
   "recipeYield": "1 kg",
   "technology": ""
@@ -16819,7 +16819,7 @@
  {
   "id": "fcb8e427-4ba1-41b3-abcb-133b3f764a81",
   "name": "Мясной ассорти 1 порц",
-  "price": 95000,
+  "price": 105000,
   "group": "Мясной.",
   "photo": null,
   "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/d19224af122deda8.jpg",
@@ -28529,7 +28529,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "num": "24173",
   "recipeYield": "1 porsiya",
   "technology": ""
