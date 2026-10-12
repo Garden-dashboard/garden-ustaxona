@@ -862,7 +862,7 @@
   "name": "Эстерхази перожний",
   "price": 35000,
   "group": "Гарден Перожний",
-  "photo": "https://menu.olimpgarden.uz/images/14baeb74bd390513.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/96eaedca35b6488aa1bb8857c0bbbaca.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -1737,7 +1737,7 @@
   "name": "Миллий микс ассорти.",
   "price": 470000,
   "group": "Ассорти блюда",
-  "photo": "https://menu.olimpgarden.uz/images/91c3ed580bc20c95.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/71860c3bff414de6bca8a10231e2c4f4.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -4719,9 +4719,9 @@
   "name": "Нота перожний",
   "price": 50000,
   "group": "Гарден Перожний",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/119aeb9157cd447c8c9eef58686cc1b0.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Нота перожни",
@@ -4739,9 +4739,9 @@
   "name": "Ферреро рошен перожний",
   "price": 45000,
   "group": "Гарден Перожний",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/cff9e3e412a142cf9060bf2c681c71c7.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Ферреро Рошен",
@@ -6590,7 +6590,7 @@
   "name": "Гарден Хон 1 порц",
   "price": 300000,
   "group": "2-таом",
-  "photo": "https://menu.olimpgarden.uz/images/f2f6557e2cd3962a.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/09e8f25405f94b32932b6df5a778534b.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -8429,7 +8429,7 @@
   "name": "Ковурилган гушт каймокли 1 кг",
   "price": 290000,
   "group": "2-таом",
-  "photo": "https://menu.olimpgarden.uz/images/e5ff461fba1d240c.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/33a7370cae0c435fb190a55978cc91d0.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -9974,7 +9974,7 @@
   "name": "Кавоб ассорти кичик.",
   "price": 480000,
   "group": "Ассорти блюда",
-  "photo": "https://menu.olimpgarden.uz/images/1c2c8419ab08e903.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/14aea255584a478dbb583a18bfffbe5d.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -11815,7 +11815,7 @@
   "name": "Гушт ассорти катта.",
   "price": 415000,
   "group": "Ассорти блюда",
-  "photo": "https://menu.olimpgarden.uz/images/1da2dbdbd5be96e5.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/c061e36b26a64e398c39c7c05a7e1816.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -12349,7 +12349,7 @@
   "name": "Олимп Бешбармок 0,5 порц",
   "price": 175000,
   "group": "Ассорти блюда",
-  "photo": "https://menu.olimpgarden.uz/images/26b7f9c13c3625be.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/36b9cb4d3e1744bfb68f9fc37b63c810.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -12608,7 +12608,7 @@
   "name": "Янги экслузив ассорти.",
   "price": 445000,
   "group": "Ассорти блюда",
-  "photo": "https://menu.olimpgarden.uz/images/12118b58ce1009a1.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/b9d7bc98c31f4276841e48d1e4adec52.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -17933,7 +17933,7 @@
   "name": "Мангал ассорти",
   "price": 550000,
   "group": "Ассорти на мангале",
-  "photo": "https://menu.olimpgarden.uz/images/0a5c8a485ee01f78.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/4b94aaf8ac5a41a8ae7461f74af70b2b.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -18692,7 +18692,7 @@
   "name": "Мангал мих.",
   "price": 500000,
   "group": "Ассорти на мангале",
-  "photo": "https://menu.olimpgarden.uz/images/fcf123352a574d2cad1764c9e564ac7b.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/f9cc583f06824f40abdb0945a5a59a35.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -19192,7 +19192,7 @@
   "name": "Стейк ассорти 1 порц",
   "price": 370000,
   "group": "Ассорти на мангале",
-  "photo": "https://menu.olimpgarden.uz/images/4ce3c9a8fcd9ec43.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/6eb78f45e4934bfa978a29d9c6577e3b.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -27004,7 +27004,7 @@
   "name": "Ежик перожний",
   "price": 50000,
   "group": "Гарден Перожний",
-  "photo": "https://menu.olimpgarden.uz/images/18a6118d3ebccf5b.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/f6e81d1f3b1b449aac70819a697650ae.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -28700,9 +28700,9 @@
   "name": "Корин туйок 1 порц",
   "price": 255000,
   "group": "2-таом",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/18455254c2634024b9cebd20244991a0.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Корин туйок п/ф",
@@ -28854,7 +28854,7 @@
   "name": "Улитка перожний",
   "price": 45000,
   "group": "Гарден Перожний",
-  "photo": "https://menu.olimpgarden.uz/images/c5b3c701880b6ca9.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/48a7c1dade0f46f1920b4bff7927dd99.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -28894,9 +28894,9 @@
   "name": "Бенто торт",
   "price": 100000,
   "group": "Гарден Перожний",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/0e5479d9807c4ac4aab384f78cebae72.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Торт Бенто",
@@ -29053,7 +29053,7 @@
   "name": "Ковурилган балик 1кг",
   "price": 125000,
   "group": "Баликлар",
-  "photo": "https://menu.olimpgarden.uz/images/d3495f530b5f6edf.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/31736ed5160a479d9e62d935b8f60d69.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -29370,7 +29370,7 @@
   "name": "Сникерсы перожний",
   "price": 45000,
   "group": "Гарден Перожний",
-  "photo": "https://menu.olimpgarden.uz/images/3a3f42a818464ae0.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/5a63f28337924bdcb784574d4b53730e.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
