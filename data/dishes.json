@@ -30262,9 +30262,9 @@
   "name": "Сет (Стипендия 4 персон)",
   "price": 200000,
   "group": "Гарден Сет",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/7fdf1bda669548d8991498ae9619abbd.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [],
   "video": null,
   "active": true
