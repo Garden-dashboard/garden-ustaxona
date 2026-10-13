@@ -12037,7 +12037,7 @@
   "name": "Олимп бешбармок.",
   "price": 310000,
   "group": "Ассорти блюда",
-  "photo": "https://menu.olimpgarden.uz/images/40fa7305b23ce2a8.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/2d551ffef8f147fc911bb7c5b5406e8f.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -19427,7 +19427,7 @@
   "name": "Шашлик ассорти.",
   "price": 515000,
   "group": "Ассорти на мангале",
-  "photo": "https://menu.olimpgarden.uz/images/7cb43253573ed5cc.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/bc17ea83b4084f06847c2890faa91908.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -21183,9 +21183,9 @@
   "name": "Мини котлет 1 порц",
   "price": 40000,
   "group": "Шашлык на мангале",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/f1474d0956b14c8b853340ac70f6c822.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Мини котлет (шт) п/ф",
