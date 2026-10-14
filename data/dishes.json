@@ -30320,5 +30320,18 @@
   "ingredients": [],
   "video": null,
   "active": true
+ },
+ {
+  "id": "8b30aaf9-b2dd-431f-ad33-6fb971131b1b",
+  "num": "24287",
+  "name": "Турк пахлаваси",
+  "price": 29000,
+  "group": "Бариста дисерт",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
  }
 ]
