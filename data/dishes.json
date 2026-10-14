@@ -29995,7 +29995,7 @@
    }
   ],
   "video": null,
-  "active": true,
+  "active": false,
   "recipeYield": "1 porsiya",
   "technology": ""
  },
@@ -30340,6 +30340,19 @@
   "name": "Мини котлет 1 шт",
   "price": 13000,
   "group": "Шашлык на мангале",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
+ },
+ {
+  "id": "984c3427-b1db-4704-b1de-a6dd77b097b1",
+  "num": "24290",
+  "name": "Судак сетка балик 1кг",
+  "price": 215000,
+  "group": "Баликлар",
   "photo": null,
   "suggestedPhoto": null,
   "photoStatus": "missing",
