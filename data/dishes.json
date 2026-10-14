@@ -21180,7 +21180,7 @@
  },
  {
   "id": "1fcb781d-b4e1-466c-9c33-169ec6708f17",
-  "name": "Мини котлет 1 порц",
+  "name": "Мангалный котлет 1 порц",
   "price": 40000,
   "group": "Шашлык на мангале",
   "photo": "https://menu.olimpgarden.uz/images/f1474d0956b14c8b853340ac70f6c822.jpg",
@@ -30327,6 +30327,19 @@
   "name": "Турк пахлаваси",
   "price": 29000,
   "group": "Бариста дисерт",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
+ },
+ {
+  "id": "57261713-5214-4a90-b4a1-d6f6b89bd2c2",
+  "num": "24289",
+  "name": "Мини котлет 1 шт",
+  "price": 13000,
+  "group": "Шашлык на мангале",
   "photo": null,
   "suggestedPhoto": null,
   "photoStatus": "missing",
