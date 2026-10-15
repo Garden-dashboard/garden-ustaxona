@@ -1244,7 +1244,7 @@
   "name": "Осма шорва 0,5 порц",
   "price": 28000,
   "group": "1-таом",
-  "photo": "https://menu.olimpgarden.uz/images/b76467058d571b54.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/535ad91fb948483bb032a0e7f30f714a.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -1970,7 +1970,7 @@
   "name": "Микс (олма сабзи) сок 1 литр",
   "price": 60000,
   "group": "Табий шарбат",
-  "photo": "https://menu.olimpgarden.uz/images/6be1808788518452.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/6e14576804524c9abb15e90458c56d8e.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -6220,7 +6220,7 @@
   "name": "Ковурма лагмон",
   "price": 40000,
   "group": "2-таом",
-  "photo": "https://menu.olimpgarden.uz/images/d013fa9786a403eb.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/84d71307722f4e80a042f9ece70a4a4d.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -7219,7 +7219,7 @@
   "name": "Катта ассорти барак",
   "price": 135000,
   "group": "Барак",
-  "photo": "https://menu.olimpgarden.uz/images/637bfe5249ea0ec2.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/681bbcea6f1c435db1525c9ef73b3d55.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -9310,7 +9310,7 @@
   "name": "Борщ (украинский) 0,5 порц",
   "price": 27000,
   "group": "1-таом",
-  "photo": "https://menu.olimpgarden.uz/images/4c2b5a95918a2a39.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/512254c76dc64fee8023544d69b87071.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -9384,7 +9384,7 @@
   "name": "Борщ (украинский) 1 порц",
   "price": 35000,
   "group": "1-таом",
-  "photo": "https://menu.olimpgarden.uz/images/8c6e49e691f8ebfd.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/bceaf973bd5646339cadab2fea92e1d5.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -10162,7 +10162,7 @@
   "name": "Лула кабоб 1 порц",
   "price": 45000,
   "group": "2-таом",
-  "photo": "https://menu.olimpgarden.uz/images/9648bba830924332.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/656ecaba9c86455f83b624976cdde0ef.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -14797,7 +14797,7 @@
   "name": "Соленый бодринг 200 гр",
   "price": 12000,
   "group": "Салёоный салатлар",
-  "photo": "https://menu.olimpgarden.uz/images/c38702335fff07c9.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/93ef610c6fca4d83aa99f8d983caeae3.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -14850,9 +14850,9 @@
   "name": "Соленый карам 200 гр",
   "price": 10000,
   "group": "Салёоный салатлар",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/c38702335fff07c9.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/c80b9bbad6f3471b8f777e0fc0a22fd0.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Карам салёний п/ф",
@@ -25176,7 +25176,7 @@
   "name": "Олма сок (СТАКАН)",
   "price": 30000,
   "group": "Табий шарбат",
-  "photo": "https://menu.olimpgarden.uz/images/fb14f138d3a55785.jpg",
+  "photo": "https://menu.olimpgarden.uz/images/ac4c9385d66040dc8ce43d1d5a1ef001.jpg",
   "suggestedPhoto": null,
   "photoStatus": "confirmed",
   "ingredients": [
@@ -30327,9 +30327,9 @@
   "name": "Турк пахлаваси",
   "price": 29000,
   "group": "Бариста дисерт",
-  "photo": null,
+  "photo": "https://menu.olimpgarden.uz/images/17885305f30542dca1aa30fd7070baa1.jpg",
   "suggestedPhoto": null,
-  "photoStatus": "missing",
+  "photoStatus": "confirmed",
   "ingredients": [],
   "video": null,
   "active": true
