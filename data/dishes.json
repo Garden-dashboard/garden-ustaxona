@@ -1968,7 +1968,7 @@
  {
   "id": "47725807-5de7-4fcf-b071-9fca136052c0",
   "name": "Микс (олма сабзи) сок 1 литр",
-  "price": 60000,
+  "price": 35000,
   "group": "Табиий шарбат",
   "photo": "https://menu.olimpgarden.uz/images/6e14576804524c9abb15e90458c56d8e.jpg",
   "suggestedPhoto": null,
@@ -1992,7 +1992,7 @@
  {
   "id": "89e2fa9d-c8e1-4cc7-9a26-abec9182d373",
   "name": "Олма сок 1 литр",
-  "price": 90000,
+  "price": 35000,
   "group": "Табиий шарбат",
   "photo": null,
   "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/fb14f138d3a55785.jpg",
@@ -2012,7 +2012,7 @@
  {
   "id": "9f4543ae-e328-4193-9a9e-a538335dd354",
   "name": "Сабзи сок 1 литр",
-  "price": 40000,
+  "price": 35000,
   "group": "Табиий шарбат",
   "photo": null,
   "suggestedPhoto": null,
@@ -8537,7 +8537,7 @@
  {
   "id": "92e047d2-f353-4b8f-8836-5058f8711bfa",
   "name": "Апелсин сок 1 литр",
-  "price": 130000,
+  "price": 170000,
   "group": "Табиий шарбат",
   "photo": null,
   "suggestedPhoto": null,
@@ -25134,7 +25134,7 @@
  {
   "id": "9f90c446-6128-45ec-bd39-6dd77c774ccd",
   "name": "Апелсин сок (СТАКАН)",
-  "price": 45000,
+  "price": 55000,
   "group": "Табиий шарбат",
   "photo": null,
   "suggestedPhoto": null,
@@ -25174,7 +25174,7 @@
  {
   "id": "8953b3f1-4933-47e5-8241-b0ad538f5c57",
   "name": "Олма сок (СТАКАН)",
-  "price": 30000,
+  "price": 15000,
   "group": "Табиий шарбат",
   "photo": "https://menu.olimpgarden.uz/images/ac4c9385d66040dc8ce43d1d5a1ef001.jpg",
   "suggestedPhoto": null,
