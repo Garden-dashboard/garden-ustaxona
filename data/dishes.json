@@ -30359,5 +30359,18 @@
   "ingredients": [],
   "video": null,
   "active": true
+ },
+ {
+  "id": "8deba360-b568-4f6f-9e44-5b7cc29c5ddd",
+  "num": "24296",
+  "name": "Хинкалий (гуштли)1 порц",
+  "price": 25000,
+  "group": "Барак",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
  }
 ]
