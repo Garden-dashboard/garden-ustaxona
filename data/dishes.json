@@ -30372,5 +30372,18 @@
   "ingredients": [],
   "video": null,
   "active": true
+ },
+ {
+  "id": "5cce1436-0f1e-4a83-86a3-81b070649bbc",
+  "num": "24298",
+  "name": "Корин туйок микс",
+  "price": 500000,
+  "group": "Ассорти блюда",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
  }
 ]
