@@ -30385,5 +30385,18 @@
   "ingredients": [],
   "video": null,
   "active": true
+ },
+ {
+  "id": "19af4b87-a66f-42ed-b1fd-929e2fc29cd5",
+  "num": "24301",
+  "name": "Nomi ?",
+  "price": 174000,
+  "group": "Гарден Сет",
+  "photo": null,
+  "suggestedPhoto": null,
+  "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
  }
 ]
