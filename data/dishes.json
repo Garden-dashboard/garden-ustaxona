@@ -27199,9 +27199,9 @@
   "name": "Острый салат 1 порц",
   "price": 55000,
   "group": "Сояли салатлар",
-  "photo": null,
-  "suggestedPhoto": "https://garden-dashboard.github.io/olimp-garden-menu/images/b56bfea01806bd0d.jpg",
-  "photoStatus": "suggested",
+  "photo": "https://menu.olimpgarden.uz/images/a47a513c67574f2b8ab167d444d1b790.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [
    {
     "name": "Коврилган гушт п\\ф",
@@ -30395,6 +30395,32 @@
   "photo": null,
   "suggestedPhoto": null,
   "photoStatus": "missing",
+  "ingredients": [],
+  "video": null,
+  "active": true
+ },
+ {
+  "id": "2c6eab39-c109-4a00-b4df-bc7f0a34a019",
+  "num": "24303",
+  "name": "Запичоний курица 1 порц",
+  "price": 65000,
+  "group": "Суши",
+  "photo": "https://menu.olimpgarden.uz/images/e8dd2f3af14448c3ab769e668544c8e1.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
+  "ingredients": [],
+  "video": null,
+  "active": true
+ },
+ {
+  "id": "19d86ade-f986-4782-9fe0-14aaac9aee60",
+  "num": "24305",
+  "name": "Филадельфия с угрем 1 порц",
+  "price": 95000,
+  "group": "Суши",
+  "photo": "https://menu.olimpgarden.uz/images/5e948be37c3a4068a062e7fcac1f78cc.jpg",
+  "suggestedPhoto": null,
+  "photoStatus": "confirmed",
   "ingredients": [],
   "video": null,
   "active": true
